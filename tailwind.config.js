@@ -7,15 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
+
       colors: {
         'green': '#123a29',
         'gray': '#F4F4F4',
         'yellow': '#C39322',
         'white': '#FFFFFF',
-        'dark': '#313131'
+        'dark': '#313131',
+        'lightdark': '#CECECE'
+      },
+
+      fontFamily: {
+        'playfair': ['var(--font-playfair)'],
+        'opensans': ['var(--font-openSans)']
       }
     },
   },
