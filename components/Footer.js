@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="container-fluid bg-white sm:p-10 p-2">
+      <div className="container-fluid bg-white sm:px-10 sm:pt-10 p-2">
         <div className="container grid sm:grid-cols-2 sm:gap-20 py-5 mx-auto">
           <div className='text-left'>
             {/* <h1 className='font-playfair text-xl text-green pr-2 col-span-2'>Get inspired</h1> */}
