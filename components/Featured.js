@@ -15,10 +15,10 @@ function Featured() {
             <div className="container-fluid sm:container mt-10 mx-auto bg-white">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:h-96">
                     <img src="/test1.jpg" alt="" className='h-full w-full' />
-                    <div className="px-2 sm:px-0">
+                    <div className="px-2 sm:mr-10 sm:px-0">
                         <p className='font-opensans text-sm text-dark sm:mt-6'>NEW & NOTEWORTHY</p>
                         <h1 className='font-playfair text-green text-4xl pt-3 pb-3'>Christmas Offer</h1>
-                        <p className='font-opensans text-sm text-dark'>VS Club is the largest indoor sports club in the country. The first of its kind, our space offers you access to a multitude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle. <br /> <br />
+                        <p className='font-opensans text-sm text-dark text-justify'>VS Club is the largest indoor sports club in the country. The first of its kind, our space offers you access to a multitude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle. <br /> <br />
                             The first of its kind, our space offers you access to a multitude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle. The first of its kind, our space offers you access to a multitude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle.
                         </p>
                         <hr className='mt-8 mb-8 text-gray' />

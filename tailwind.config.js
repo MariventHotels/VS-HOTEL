@@ -27,6 +27,10 @@ module.exports = {
       fontFamily: {
         'playfair': ['var(--font-playfair)'],
         'opensans': ['var(--font-openSans)']
+      },
+
+      margin: {
+        '120px': '120px',
       }
     },
   },
