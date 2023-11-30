@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // gridTemplateColumns: {
+      //   'customgrid': ''
+      // },
+
       screens: {
         'sm': '640px',
         'md': '768px',
