@@ -19,7 +19,7 @@ function Navbar() {
                 ))}
             </ul>
             <div className="lg:flexCenter">
-                <button className='bg-yellow py-2 px-5 text-white text-sm rounded-sm'>BOOK NOW</button>
+                <button className='bg-yellow py-2 px-5 text-white text-sm rounded-sm'><a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MzgzMA==&individual=true">BOOK NOW</a></button>
             </div>
 
             {/* <div className='md:block sm:block hidden'>

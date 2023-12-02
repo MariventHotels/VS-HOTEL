@@ -164,9 +164,9 @@ export const PREMIUM_QUEEN = [
 //EVENT SPACES
 export const EVENT_SPACES = [
     {
-       Ballroom: [
+       Spaces: [
         {
-            image: '/testroom.png',
+            image: '/test1.jpg',
             name: 'Ballroom',
             subtext: 'Throw your biggest party of VS Hotel’s Club lounge and party like no other. Its modern interiors compliment the classy and chill vibe of the spot located at the Upper Ground Floor of Victoria Sports Tower 2.',
             sub_name: 'Capacity',
@@ -186,7 +186,91 @@ export const EVENT_SPACES = [
                     space_count: '200pax'
                 }
             ]
-        }
+        },
+
+        {
+            image: '/test1.jpg',
+            name: 'Rooftop Ballroom',
+            subtext: 'Enjoy the breathtaking view from the 10th floor of the VS Tower with a sophisticated venue and a complete event set-up of your choice.',
+            sub_name: 'Capacity',
+            capacity: [
+                {
+                    space_name: 'Classroom',
+                    space_count: '250 pax'
+                },
+
+                {
+                    space_name: 'Banquet',
+                    space_count: '280 pax'
+                },
+
+                {
+                    space_name: 'Theater',
+                    space_count: '200 pax'
+                }
+            ]
+        },
+
+        {
+            image: '/test1.jpg',
+            name: 'Mexico',
+            subtext: 'Work in a different ambiance away from your office. VS Hotel’s Meeting rooms are perfect from Small Private Business Meetings and Brainstorming.',
+            sub_name: 'Capacity',
+            capacity: [
+                {
+                    space_name: 'Classroom',
+                    space_count: '22 pax'
+                },
+
+                {
+                    space_name: 'Banquet',
+                    space_count: '30 pax'
+                },
+
+                {
+                    space_name: 'Theater',
+                    space_count: '40 pax'
+                }
+            ]
+        },
+
+        {
+            image: '/test1.jpg',
+            name: 'Tokyo',
+            subtext: 'Brainstorm big ideas in our Tokyo Function Room. Perfect fit for small groups with a maximum capacity of 12 pax.',
+            sub_name: 'Capacity',
+            capacity: [
+                {
+                    space_name: 'Conference',
+                    space_count: '12 pax'
+                }
+            ]
+        },
+
+        {
+            image: '/test1.jpg',
+            name: 'Melbourne',
+            subtext: 'Perfect for big group gatherings for business or school affairs, our Melbourne Function Room can fit up to 120 pax.',
+            sub_name: 'Capacity',
+            capacity: [
+                {
+                    space_name: 'Classroom',
+                    space_count: '50 pax'
+                },
+
+                {
+                    space_name: 'Banquet',
+                    space_count: '80 pax'
+                },
+
+                {
+                    space_name: 'Theater',
+                    space_count: '100-120 pax'
+                }
+            ]
+        },
+
+
        ]
     }
 ]

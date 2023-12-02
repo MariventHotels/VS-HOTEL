@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function DiningPage() {
   return (
     <>
-        <div className="container-fluid h-full sm:m-[120px] m-2 mb-10">
+        <div className="container-fluid h-full sm:m-[120px] m-2 mb-10 mt-24">
             <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
@@ -54,7 +54,7 @@ function DiningPage() {
                   <hr className='text-lightdark sm:mt-5 mt-4' />
               </div>
 
-              <div className="grid grid-cols-2 gap-10 mx-24">
+              <div className="grid sm:grid-cols-2 gap-10 sm:mx-24">
                   <img src="/menu/menuA.jpg" alt="menu" />
                   <img src="/menu/menuB.jpg" alt="menu" />
               </div>
@@ -66,7 +66,7 @@ function DiningPage() {
 
             {/**GASTRO BAR */}
 
-            <div className="container text-center mx-auto sm:mt-14">
+            <div className="container text-center mx-auto sm:mt-14 mt-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-2xl text-xl font-playfair text-green'>HOTEL DINING</h1>
