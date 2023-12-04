@@ -21,15 +21,27 @@ function Coverpage() {
           showIndicators={false}
         >
           <div>
-              <img src="/test1.jpg" alt='test' className='h-full sm:h-screen' />
+              <img src="/carousel/homepage/1.jpg" alt='test' className='h-full sm:h-screen' />
           </div>
 
           <div>
-              <img src="/test2.jpg" alt='test' className='h-full sm:h-screen' />
+              <img src="/carousel/homepage/2.jpg" alt='test' className='h-full sm:h-screen' />
           </div>
 
           <div>
-              <img src="/test3.jpg" alt='test' className='h-full sm:h-screen' />
+              <img src="/carousel/homepage/3.jpg" alt='test' className='h-full sm:h-screen' />
+          </div>
+
+          <div>
+              <img src="/carousel/homepage/4.jpg" alt='test' className='h-full sm:h-screen' />
+          </div>
+
+          <div>
+              <img src="/carousel/homepage/5.jpg" alt='test' className='h-full sm:h-screen' />
+          </div>
+
+          <div>
+              <img src="/carousel/homepage/6.jpg" alt='test' className='h-full sm:h-screen' />
           </div>
         </Carousel>
       {/**TAGLINE */}

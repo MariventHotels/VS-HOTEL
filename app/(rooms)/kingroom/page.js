@@ -33,15 +33,28 @@ function KingRoom() {
                 showIndicators={true}
               >
                 <div>
-                    <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/kingroom/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
-
                 <div>
-                    <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/kingroom/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
-
                 <div>
-                    <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/kingroom/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/kingroom/carousel/4.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/kingroom/carousel/5.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/kingroom/carousel/6.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/kingroom/carousel/7.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/kingroom/carousel/8.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
               </Carousel>
             </div>

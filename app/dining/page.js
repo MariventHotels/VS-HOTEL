@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import {Carousel} from 'react-responsive-carousel';
+import '../../styles.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function DiningPage() {
@@ -33,15 +34,15 @@ function DiningPage() {
                 showIndicators={true}
               >
                 <div>
-                    <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/cafe/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
 
                 <div>
-                    <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/cafe/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
 
                 <div>
-                    <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/cafe/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
               </Carousel>
             </div>
@@ -60,7 +61,7 @@ function DiningPage() {
               </div>
 
               <div className="container mt-10">
-                <button className='bg-green py-2 px-5 text-white text-sm rounded-sm font-opensans'>DOWNLOAD MENU</button>
+                <button className='bg-green py-2 px-5 text-white text-sm rounded-sm font-opensans custom-btn'>DOWNLOAD MENU</button>
               </div>
             </div>
 
@@ -89,15 +90,13 @@ function DiningPage() {
                     showIndicators={true}
                   >
                     <div>
-                        <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/gastrobar/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
-
                     <div>
-                        <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/gastrobar/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
-
                     <div>
-                        <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/gastrobar/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
                   </Carousel>
                 </div>

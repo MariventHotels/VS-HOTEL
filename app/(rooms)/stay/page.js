@@ -20,7 +20,7 @@ function stay() {
                     <div className="grid sm:grid-cols-2 gap-14">
                         {ROOM_TYPE.map((index) => (
                             <div className=''>
-                                <img className='w-screen' src={index.image} alt="rooms" />
+                                <img className='w-screen rounded-sm' src={index.image} alt="rooms" />
                                 <h1 className='font-playfair text-green sm:text-2xl text-xl mt-2 font-medium' >{index.label}</h1>
                                 <p className='text-dark text-sm pt-2 pb-1 text-justify font-opensans'>{index.subtext}</p>
                                 <a className='text-green sm:text-base text-sm font-normal underline font-playfair' href={index.href} key={index.key}>See more</a>

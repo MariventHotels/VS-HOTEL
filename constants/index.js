@@ -8,11 +8,11 @@ export const NAV_LINKS = [
 ]
 
 export const ROOM_TYPE = [
-    { href: '/singleroom', image: '/testroom.png', key: 'singleroom', label: 'Single Room', subtext: 'Comfortably relaxing, 21 square meters with queen-size bed.'  },
-    { href: '/standardqueen', image: '/testroom.png', key: 'standardqueenroom', label: 'Standard Queen Room', subtext: 'Cozy up in our Standard Queen, equipped with a queen-size bed.'  },
-    { href: '/suiteroom', image: '/testroom.png', key: 'suiteroom', label: 'Suite Room', subtext: 'Retreat to a perfect sanctuary in the heart of the city and experience a luxurious stay in our Suite Room. The expansive suite offers stylish amenities, a separate lounge and living room with garden views. Luxuriate in a well-appointed bathroom with separate shower and bathtub.'  },
-    { href: '/kingroom', image: '/testroom.png', key: 'kingroom', label: 'King Room', subtext: 'Upgrade to King Room for a chic staycation. Unwind, curl up in a generous bed or revel in the modern bathroom with separate shower and bathtub. Perfect for families travelling together, and for long-stay leisure or business travelers.'  },
-    { href: '/premiumqueen', image: '/testroom.png', key: 'premiumroom', label: 'Premium Queen Room', subtext: 'Spacious with 30-33 square meters, Premium Queen comes with a queen-size bed and contemporary amenities.'  }
+    { href: '/singleroom', image: '/rooms/singleroom/1.jpg', key: 'singleroom', label: 'Single Room', subtext: 'Comfortably relaxing, 21 square meters with queen-size bed.'  },
+    { href: '/standardqueen', image: '/rooms/standardqueen/1.jpg', key: 'standardqueenroom', label: 'Standard Queen Room', subtext: 'Cozy up in our Standard Queen, equipped with a queen-size bed.'  },
+    { href: '/suiteroom', image: '/rooms/suiteroom/1.jpg', key: 'suiteroom', label: 'Suite Room', subtext: 'Retreat to a perfect sanctuary in the heart of the city and experience a luxurious stay in our Suite Room. The expansive suite offers stylish amenities, a separate lounge and living room with garden views. Luxuriate in a well-appointed bathroom with separate shower and bathtub.'  },
+    { href: '/kingroom', image: '/rooms/kingroom/1.jpg', key: 'kingroom', label: 'King Room', subtext: 'Upgrade to King Room for a chic staycation. Unwind, curl up in a generous bed or revel in the modern bathroom with separate shower and bathtub. Perfect for families travelling together, and for long-stay leisure or business travelers.'  },
+    { href: '/premiumqueen', image: '/rooms/premiumqueen/1.jpg', key: 'premiumqueenroom', label: 'Premium Queen Room', subtext: 'Spacious with 30-33 square meters, Premium Queen comes with a queen-size bed and contemporary amenities.'  }
 ]
 
 //ROOM VARIANTS
@@ -166,8 +166,8 @@ export const EVENT_SPACES = [
     {
        Spaces: [
         {
-            image: '/test1.jpg',
-            name: 'Ballroom',
+            image: '/conventioncenter/FBallroom.jpg',
+            name: 'Grand Ballroom',
             subtext: 'Throw your biggest party of VS Hotel’s Club lounge and party like no other. Its modern interiors compliment the classy and chill vibe of the spot located at the Upper Ground Floor of Victoria Sports Tower 2.',
             sub_name: 'Capacity',
             capacity: [
@@ -189,8 +189,8 @@ export const EVENT_SPACES = [
         },
 
         {
-            image: '/test1.jpg',
-            name: 'Rooftop Ballroom',
+            image: '/conventioncenter/FRooftopBR.png',
+            name: 'City View Function Room',
             subtext: 'Enjoy the breathtaking view from the 10th floor of the VS Tower with a sophisticated venue and a complete event set-up of your choice.',
             sub_name: 'Capacity',
             capacity: [
@@ -212,7 +212,7 @@ export const EVENT_SPACES = [
         },
 
         {
-            image: '/test1.jpg',
+            image: '/conventioncenter/FMexico.png',
             name: 'Mexico',
             subtext: 'Work in a different ambiance away from your office. VS Hotel’s Meeting rooms are perfect from Small Private Business Meetings and Brainstorming.',
             sub_name: 'Capacity',
@@ -224,18 +224,18 @@ export const EVENT_SPACES = [
 
                 {
                     space_name: 'Banquet',
-                    space_count: '30 pax'
+                    space_count: '40 pax'
                 },
 
                 {
                     space_name: 'Theater',
-                    space_count: '40 pax'
+                    space_count: '30 pax'
                 }
             ]
         },
 
         {
-            image: '/test1.jpg',
+            image: '/conventioncenter/FTokyo.jpg',
             name: 'Tokyo',
             subtext: 'Brainstorm big ideas in our Tokyo Function Room. Perfect fit for small groups with a maximum capacity of 12 pax.',
             sub_name: 'Capacity',
@@ -248,7 +248,7 @@ export const EVENT_SPACES = [
         },
 
         {
-            image: '/test1.jpg',
+            image: '/conventioncenter/FMelbourne.jpg',
             name: 'Melbourne',
             subtext: 'Perfect for big group gatherings for business or school affairs, our Melbourne Function Room can fit up to 120 pax.',
             sub_name: 'Capacity',
@@ -265,7 +265,7 @@ export const EVENT_SPACES = [
 
                 {
                     space_name: 'Theater',
-                    space_count: '100-120 pax'
+                    space_count: '100 to 120 pax'
                 }
             ]
         },

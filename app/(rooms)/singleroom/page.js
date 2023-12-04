@@ -33,15 +33,31 @@ function SingleRoom() {
                     showIndicators={true}
                   >
                     <div>
-                        <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/rooms/singleroom/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
 
                     <div>
-                        <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/rooms/singleroom/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
 
                     <div>
-                        <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
+                        <img src="/rooms/singleroom/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
+                    </div>
+
+                    <div>
+                        <img src="/rooms/singleroom/carousel/4.jpg" alt='test' className='h-full sm:h-2/3' />
+                    </div>
+
+                    <div>
+                        <img src="/rooms/singleroom/carousel/5.jpg" alt='test' className='h-full sm:h-2/3' />
+                    </div>
+
+                    <div>
+                        <img src="/rooms/singleroom/carousel/6.jpg" alt='test' className='h-full sm:h-2/3' />
+                    </div>
+
+                    <div>
+                        <img src="/rooms/singleroom/carousel/7.jpg" alt='test' className='h-full sm:h-2/3' />
                     </div>
                   </Carousel>
                 </div>

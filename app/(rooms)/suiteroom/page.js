@@ -33,15 +33,34 @@ function SuiteRoom() {
                 showIndicators={true}
               >
                 <div>
-                    <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/suiteroom/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
-
                 <div>
-                    <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/suiteroom/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
-
                 <div>
-                    <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/suiteroom/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/5.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/6.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/7.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/8.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/9.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/10.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/suiteroom/carousel/11.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
               </Carousel>
             </div>

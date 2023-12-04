@@ -11,6 +11,10 @@ module.exports = {
       //   'customgrid': ''
       // },
 
+      height:{
+        '70': '70vh'
+      },
+
       screens: {
         'sm': '640px',
         'md': '768px',
@@ -35,7 +39,8 @@ module.exports = {
 
       margin: {
         '120px': '120px',
-      }
+      },
+
     },
   },
   plugins: [],

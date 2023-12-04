@@ -22,14 +22,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-  </style>
-
   return (
     <html lang="en"
       className={`${openSans.variable} ${playfair.variable}`}
     >
+
+    <head>
+      <link rel="stylesheet" href="../styles.css" />
+    </head>
 
       <body className='bg-gray'>
         <Navbar />

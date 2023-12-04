@@ -33,16 +33,27 @@ function PremiumQueen() {
                 showIndicators={true}
               >
                 <div>
-                    <img src="/test1.jpg" alt='test' className='h-full sm:h-2/3' />
+                    <img src="/rooms/premiumqueen/carousel/1.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/2.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/3.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/4.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/5.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/6.jpg" alt='test' className='h-full sm:h-2/3' />
+                </div>
+                <div>
+                    <img src="/rooms/premiumqueen/carousel/7.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
 
-                <div>
-                    <img src="/test2.jpg" alt='test' className='h-full sm:h-2/3' />
-                </div>
-
-                <div>
-                    <img src="/test3.jpg" alt='test' className='h-full sm:h-2/3' />
-                </div>
               </Carousel>
             </div>
 
