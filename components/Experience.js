@@ -13,7 +13,7 @@ function Experience() {
         </div>
 
         <div className="container-fluid sm:container mt-10 mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className=''>
                   <img src="/skin/1.jpg" alt="" className='w-full sm:h-96 rounded-sm' />
                   <p className='mt-3 text-sm text-dark'>WELLNESS BEYOND BEAUTY</p>

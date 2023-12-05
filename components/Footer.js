@@ -6,10 +6,10 @@ function Footer() {
   return (
     <>
       <div className="container-fluid bg-white sm:px-10 sm:pt-10 p-2 font-opensans">
-        <div className="container grid sm:grid-cols-2 sm:gap-20 py-5 mx-auto">
+        <div className="container grid lg:grid-cols-2 lg:gap-20 gap-4 py-5 mx-auto">
           <div className='text-left'>
             {/* <h1 className='font-playfair text-xl text-green pr-2 col-span-2'>Get inspired</h1> */}
-            <p className='font-opensans text-sm text-dark col-span-4 mb-4 sm:mb-0'>To receive updates about exclusive experiences, events, new destinations and more, please register your interest.</p>
+            <p className='font-opensans text-sm text-dark lg:col-span-4 mb-4 sm:mb-0'>To receive updates about exclusive experiences, events, new destinations and more, please register your interest.</p>
           </div>
 
           <div className='text-right flex'>
@@ -22,7 +22,7 @@ function Footer() {
 
         <div className="container text-center mx-auto">
           <div className='container text-center mx-auto'>
-            <img src="/main_logo.png" alt="logo" className='w-1/4 sm:w-1/4 mx-auto' />
+            <img src="/main_logo.png" alt="logo" className='w-2/4 lg:w-1/4 mx-auto' />
           </div>
           <h1 className='text-2xl sm:text-4xl font-playfair text-green py-2 font-medium'>STAY CONNECTED WITH US</h1>
           <p className='text-sm text-dark font-opensans'>9F, 799 Victoria Sports Tower, EDSA Southbound, Quezon City, 1103 Metro Manila</p>
@@ -63,7 +63,7 @@ function Footer() {
           <hr className='text-lightdark my-10' />
 
           <div className="container mb-10">
-            <p className='text-sm font-opensans text-dark font-opensans'>Copyright © 2023 VS Hotel. All Rights Reserved</p>
+            <p className='text-sm font-opensans text-dark'>Copyright © 2023 VS Hotel. All Rights Reserved</p>
           </div>
         </div>
 

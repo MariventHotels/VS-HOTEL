@@ -7,15 +7,15 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function DiningPage() {
   return (
     <>
-        <div className="container-fluid h-full sm:m-[120px] m-2 mb-10 mt-24">
+        <div className="container-fluid h-full lg:m-[120px] m-2 mb-10 mt-24">
             <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-green'>HOTEL DINING</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 text-dark font-opensans sm:w-3/4 mx-auto text-sm '>Our dining venues are synonymous with living well and quality dining experience. Flavorful, freshly prepared choices take center stage for your dining enjoyment. Mingle while watching live streaming of your favorite sports in our Bistro Bar. </p>
-                <p className='pt-3 pb-3 text-dark font-opensans sm:w-3/4 mx-auto text-sm '>A variety of booster meals for the health conscious and with dietary restrictions are available at the Health Bar. Take delight in a stylish Al fresco cafe, serving contemporary farm to table salad, mocktails and cocktails. </p>
+                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Our dining venues are synonymous with living well and quality dining experience. Flavorful, freshly prepared choices take center stage for your dining enjoyment. Mingle while watching live streaming of your favorite sports in our Bistro Bar. </p>
+                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>A variety of booster meals for the health conscious and with dietary restrictions are available at the Health Bar. Take delight in a stylish Al fresco cafe, serving contemporary farm to table salad, mocktails and cocktails. </p>
             </div>
 
             {/**CAROUSEL */}

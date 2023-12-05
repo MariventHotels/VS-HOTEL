@@ -157,7 +157,6 @@ export const PREMIUM_QUEEN = [
             { image: '/icons/gym.png', name: 'GYM' },
             { image: '/icons/sauna.png', name: 'WATER SPA' },
         ],
-
     }
 ]
 
