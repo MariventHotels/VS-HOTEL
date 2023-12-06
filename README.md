@@ -39,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### REACT-RESPONSIVE-CAROUSEL
 https://www.npmjs.com/package/react-responsive-carousel
 add 'use client' on first line
+
+### REACT SLICK - SLIDE OF IMAGES
+https://www.npmjs.com/package/react-slick
+

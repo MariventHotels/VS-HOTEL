@@ -10,11 +10,11 @@ function Sports() {
         dots: false,
         arrows: false,
         infinite: true,
-        speed: 5000,
+        speed: 4000,
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 4000,
         pauseOnFocus: false,
         pauseOnDotsHover: false,
         cssEase: "linear",
@@ -31,9 +31,9 @@ function Sports() {
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
               }
             },
             {
