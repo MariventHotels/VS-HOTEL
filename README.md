@@ -43,3 +43,7 @@ add 'use client' on first line
 ### REACT SLICK - SLIDE OF IMAGES
 https://www.npmjs.com/package/react-slick
 
+### PAGE LOAD ANIMATION
+https://michalsnik.github.io/aos/
+https://www.npmjs.com/package/aos
+
