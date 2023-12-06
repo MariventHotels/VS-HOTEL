@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // gridTemplateColumns: {
-      //   'customgrid': ''
-      // },
 
       height:{
         '70': '70vh'
