@@ -62,28 +62,28 @@ function Sports() {
                 <div className="container-fluid mt-10 mx-auto">
                     <Slider {...settings}>
                         <div className='h-full'>
-                            <img src="/club/1.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/1.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/2.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/2.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/3.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/3.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/4.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/4.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/5.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/5.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/6.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/6.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/7.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/7.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/club/8.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/club/8.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                     </Slider>
                 </div>

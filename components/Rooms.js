@@ -63,28 +63,28 @@ function Rooms() {
                 <div className="container-fluid mt-10 mx-auto">
                     <Slider {...settings}>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/2.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/2.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/3.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/3.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/4.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/4.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/5.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/5.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/6.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/6.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/7.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/7.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/8.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                            <img src="/rooms/coverpage/8.jpg" alt="" className='h-full w-11/12 rounded-sm mx-auto text-center' />
                         </div>
 
                     </Slider>
