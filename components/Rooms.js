@@ -9,15 +9,42 @@ function Rooms() {
 
     var settings = {
         dots: false,
+        arrows: false,
         infinite: true,
-        speed: 200,
-        slidesToShow: 4,
-        slidesToScroll: 2,
+        speed: 5000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 5000,
         pauseOnFocus: false,
         pauseOnDotsHover: false,
-        
+        cssEase: "linear",
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
 
   return (
@@ -33,56 +60,33 @@ function Rooms() {
                     <a href="/stay"><button className='bg-green pl-5 pr-5 pt-2 pb-2 text-white mt-2 font-playfair text-sm rounded-sm transition-transform custom-btn'>EXPLORE THE ROOM</button></a>
                 </div>
 
-                <div className="container-fluid sm:container mt-10 mx-auto">
+                <div className="container-fluid mt-10 mx-auto">
                     <Slider {...settings}>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/2.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/3.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/4.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/5.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/6.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/7.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
                         <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
+                            <img src="/rooms/coverpage/8.jpg" alt="" className='h-full w-11/12 rounded-sm' />
                         </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
-                        <div className='h-full'>
-                            <img src="/rooms/coverpage/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        </div>
+
                     </Slider>
                 </div>
         </div>

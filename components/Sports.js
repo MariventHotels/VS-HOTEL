@@ -1,6 +1,51 @@
-import React from 'react'
+'use client';
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Sports() {
+
+    var settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 5000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnFocus: false,
+        pauseOnDotsHover: false,
+        cssEase: "linear",
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    };
+
   return (
     <>
         <div className="container-fluid h-full sm:m-10 m-2 mt-10 mb-10">
@@ -14,12 +59,33 @@ function Sports() {
                     <a href="https://victoriasportsclub.com/"><button className='bg-green pl-5 pr-5 pt-2 pb-2 text-white mt-2 font-playfair text-sm rounded-sm custom-btn'>EXPLORE THE SPORTS CLUB</button></a>
                 </div>
 
-                <div className="container-fluid sm:container mt-10 mx-auto">
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:h-96">
-                        <img src="/club/1.jpg" alt="" className='h-full w-full rounded-sm' />
-                        <img src="/club/2.jpg" alt="" className='h-full w-full rounded-sm' />
-                        <img src="/club/3.jpg" alt="" className='h-full w-full rounded-sm' />
-                    </div>
+                <div className="container-fluid mt-10 mx-auto">
+                    <Slider {...settings}>
+                        <div className='h-full'>
+                            <img src="/club/1.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/2.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/3.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/4.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/5.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/6.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/7.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                        <div className='h-full'>
+                            <img src="/club/8.jpg" alt="" className='h-full w-11/12 rounded-sm' />
+                        </div>
+                    </Slider>
                 </div>
         </div>
     </>
