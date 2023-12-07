@@ -53,7 +53,7 @@ function Rooms() {
                 <div className="container text-center mx-auto">
                     <div className="grid grid-cols-3">
                         <hr className='text-lightdark sm:mt-5 mt-4' />
-                        <h1 className='sm:text-3xl text-xl font-playfair text-green'>THE ROOMS</h1>
+                        <h1 className='sm:text-3xl text-lg font-playfair text-green'>THE ROOMS</h1>
                         <hr className='text-lightdark sm:mt-5 mt-4' />
                     </div>
                     <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Our guest rooms are infused with uncomplicated comfort and style. Whether you are staying to work or play, rest and revitalize, our guest rooms bring modern conveniences that elevate your lifestyle.</p>
