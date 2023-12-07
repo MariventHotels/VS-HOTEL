@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function DiningPage() {
   return (
     <>
-        <div className="container-fluid h-full lg:m-[120px] m-2 mb-10 mt-24">
+        <div className="container-fluid h-full lg:m-[120px] m-2 mb-10 mt-24" data-aos="fade-up">
             <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
@@ -48,7 +48,7 @@ function DiningPage() {
             </div>
 
             {/*MENU*/}
-            <div className="container text-center mx-auto sm:mt-14">
+            <div className="container text-center mx-auto sm:mt-14" data-aos="fade-up">
               <div className="grid grid-cols-3 mb-10 mt-5">
                   <hr className='text-lightdark sm:mt-5 mt-4' />
                   <h1 className='sm:text-2xl text-xl font-playfair text-green'>MENU</h1>
@@ -67,7 +67,7 @@ function DiningPage() {
 
             {/**GASTRO BAR */}
 
-            <div className="container text-center mx-auto sm:mt-14 mt-10">
+            <div className="container text-center mx-auto sm:mt-14 mt-10" data-aos="fade-up">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-2xl text-xl font-playfair text-green'>HOTEL DINING</h1>

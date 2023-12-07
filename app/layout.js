@@ -29,23 +29,23 @@ export default function RootLayout({ children }) {
 
     <head>
       <link rel="stylesheet" href="../styles.css" />
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     </head>
 
       <body className='bg-gray'>
         <Navbar />
-          <main className='relative overflow-hidden font-opensans'>
+          <main className='relative overflow-hidden font-opensans' >
             {children}
           </main>
         <Footer />
-      </body>
 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       <script>
         AOS.init();
       </script>
 
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+      </body>
     </html>
   )
 }

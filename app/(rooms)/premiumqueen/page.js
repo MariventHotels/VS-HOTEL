@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function PremiumQueen() {
   return (
     <>
-        <div className="container-fluid h-full sm:m-[120px] my-24 mx-2 ">
+        <div className="container-fluid h-full sm:m-[120px] my-24 mx-2" data-aos="fade-up">
             <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
@@ -58,7 +58,7 @@ function PremiumQueen() {
             </div>
 
             {/**ROOM HIGHLIGHTS */}
-            <div className="container-fluid h-full mt-12 mb-10">
+            <div className="container-fluid h-full mt-12 mb-10" data-aos="fade-up">
               <div className="container text-center mx-auto">
                   <div className="grid grid-cols-3">
                       <hr className='text-lightdark sm:mt-5 mt-4' />
