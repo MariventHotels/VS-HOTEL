@@ -114,19 +114,19 @@ function SuiteRoom() {
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
 
-                <div className='grid grid-cols-3 gap-5 mx-10 mt-14'>
-                    {SUITE_ROOM.map((index) => (
-                      <>
-                        {index.inclusionC.map((index) => (
-                          <>
-                            <div className="flex justify-center text-center">
-                              <img className='w-16 h-12 mx-5' src={index.image} alt="" />
-                              <p className='mt-3 font-opensans text-dark text-lg'>{index.name}</p>
-                            </div>
-                          </>
-                        ))}
-                      </>
-                    ))}
+                <div className='grid sm:grid-cols-3 gap-5 sm:mx-10 mx-5 sm:mt-14 mt-5'>
+                  {SUITE_ROOM.map((index) => (
+                    <>
+                      {index.inclusionC.map((index) => (
+                        <>
+                          <div className="flex sm:justify-center text-center sm:my-0 my-3">
+                            <img className='sm:w-16 w-12 sm:h-12 h-9 mx-5' src={index.image} alt="" />
+                            <p className='mt-3 font-opensans text-dark sm:text-lg text-base'>{index.name}</p>
+                          </div>
+                        </>
+                      ))}
+                    </>
+                  ))}
                 </div>
             </div>
             </div>

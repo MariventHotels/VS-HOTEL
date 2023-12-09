@@ -118,7 +118,7 @@ function KingRoom() {
                                 <>
                                   <div className="flex sm:justify-center text-center sm:my-0 my-3">
                                     <img className='sm:w-16 w-12 sm:h-12 h-9 mx-5' src={index.image} alt="" />
-                                    <p className='mt-3 font-opensans text-dark text-lg'>{index.name}</p>
+                                    <p className='mt-3 font-opensans text-dark sm:text-lg text-base'>{index.name}</p>
                                   </div>
                                 </>
                               ))}

@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'rme': '#FFFFFF'
+      },
 
       height:{
         '70': '70vh'
