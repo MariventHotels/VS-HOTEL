@@ -11,6 +11,10 @@ module.exports = {
         'rme': '#FFFFFF'
       },
 
+      fontSize: {
+        'xs': '0.6rem',
+      },
+
       height:{
         '70': '70vh'
       },
