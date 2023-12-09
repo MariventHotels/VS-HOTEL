@@ -48,10 +48,9 @@ function Coverpage() {
       {/**TAGLINE */}
       <div className="container-fluid w-full mx-auto absolute bottom-3 sm:px-1 sm:bottom-10 text-center text-white">
         <h1 className='sm:text-5xl 2xl:text-7xl text-2xl mb-1 lg:mb-4 font-playfair'>WORK, PLAY, AND STAY IN ONE</h1>
-        <p className='text-xs sm:text-base lg:text-lg'>Redefining travel by providing you with unlimited access to fitness classes, gym facilities, and sports facilities.</p>
+        <p className='text-xs sm:text-base lg:text-lg mx-1'>Redefining travel by providing you with unlimited access to fitness classes, gym facilities, and sports facilities.</p>
       </div>
      </div>
-
     </>
   )
 }
