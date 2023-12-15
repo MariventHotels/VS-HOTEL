@@ -47,3 +47,7 @@ https://www.npmjs.com/package/react-slick
 
 https://www.npmjs.com/package/aos
 
+### GALLERY ZOOM
+https://www.npmjs.com/package/lightgallery
+https://www.lightgalleryjs.com/docs/getting-started/#installation
+

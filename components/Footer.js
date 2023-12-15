@@ -28,8 +28,8 @@ function Footer() {
           <p className='text-sm text-dark font-opensans'>9F, 799 Victoria Sports Tower, EDSA Southbound, Quezon City, 1103 Metro Manila</p>
 
           <div className='flex justify-center my-4 text-green'>
-            <a href="/"><FaFacebookF className='text-xl mx-2' /></a>
-            <a href="/"><FaInstagram className='text-2xl mx-2' /></a>
+            <a href="https://www.facebook.com/vshotelph?mibextid=9R9pXO"><FaFacebookF className='text-xl mx-2' /></a>
+            <a href="https://www.instagram.com/vshotelph?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram className='text-2xl mx-2' /></a>
           </div>
 
           <div className="grid sm:grid-cols-3 sm:my-10">
@@ -44,19 +44,19 @@ function Footer() {
 
             <div>
                 <h1 className='font-playfair text-xl text-dark mb-2 mt-5 sm:mt-0'>About</h1>
-                <p className='text-sm text-dark py-1'><a href="/">Stay</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">Dining</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">Convention Center</a></p>
-                <p className='text-sm text-dark'><a href="/">VS Club</a></p>
+                <p className='text-sm text-dark py-1'><a href="/stay">Stay</a></p>
+                <p className='text-sm text-dark py-1'><a href="/dining">Dining</a></p>
+                <p className='text-sm text-dark py-1'><a href="/conventioncenter">Convention Center</a></p>
+                <p className='text-sm text-dark'><a href="https://victoriasportsclub.com/">VS Club</a></p>
             </div>
 
             <div>
                 <h1 className='font-playfair text-xl text-dark mb-2 mt-5 sm:mt-0'>More from VS Hotel</h1>
-                <p className='text-sm text-dark py-1'><a href="/">Las Casas Filipinas de Acuzar</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">Las Casas Quezon City</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">Victoria Sports Club</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">Victoria Skin</a></p>
-                <p className='text-sm text-dark py-1'><a href="/">New San Jose Builders, Inc.</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://www.lascasasfilipinas.com/">Las Casas Filipinas de Acuzar</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://www.lascasasqc.com/">Las Casas Quezon City</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://victoriasportsclub.com/">Victoria Sports Club</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://victoriaskin.ph/">Victoria Skin</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://www.nsjbi.com.ph/">New San Jose Builders, Inc.</a></p>
             </div>
           </div>
 

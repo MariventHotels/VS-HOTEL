@@ -41,14 +41,14 @@ function Navbar() {
                 <li className="mb-2 py-4"><a href="/stay">Stay</a></li>
                 <li className="mb-2 py-4"><a href="/dining">Dining</a></li>
                 <li className="mb-2 py-4"><a href="/conventioncenter">Convention Center</a></li>
-                <li className="mb-2 py-4"><a href="https://vshotel.com.ph/ConventionCenter">VS Club</a></li>
+                <li className="mb-2 py-4"><a href="https://victoriasportsclub.com/">VS Club</a></li>
                 <li className="mb-2 py-4"><a href="/specialoffers">Special Offers</a></li>
             </ul>
         </animated.aside>
 
         <div className='bg-green flex justify-between text-white py-1 sm:px-3 px-1'>
             <div>
-                <p className='text-xs font-semibold'>For inquiries:</p>
+                <p className='text-xs font-semibold'>For inquiries & reservation:</p>
             </div>
 
             <div className='flex justify-center text-xs font-semibold'>

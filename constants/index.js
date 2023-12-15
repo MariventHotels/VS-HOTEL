@@ -3,8 +3,13 @@ export const NAV_LINKS = [
     { href: '/stay', key: 'stay', label: 'STAY' },
     { href: '/dining', key: 'dining', label: 'DINING' },
     { href: '/conventioncenter', key: 'conventioncenter', label: 'CONVENTION CENTER' },
-    { href: 'https://vshotel.com.ph/ConventionCenter', key: 'vsclub', label: 'VS CLUB' },
-    { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
+    { href: 'https://victoriasportsclub.com/', key: 'vsclub', label: 'VS CLUB' },
+    { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
+]
+
+export const MENU_OPT = [
+    { href: '/menu/menuA.jpg', image: '/menu/menuA.jpg', key: 'menuA' },
+    { href: '/menu/menuB.jpg', image: '/menu/menuB.jpg', key: 'menuB' }
 ]
 
 export const ROOM_TYPE = [
@@ -273,3 +278,4 @@ export const EVENT_SPACES = [
        ]
     }
 ]
+

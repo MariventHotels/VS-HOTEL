@@ -28,8 +28,17 @@ export default function RootLayout({ children }) {
     >
 
     <head>
+      {/* data-aos animation */}
       <link rel="stylesheet" href="../styles.css" />
       <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+      {/* light gallery style */}
+      <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+
+      {/* lightgallery plugins */}
+      <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
+      <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
+
     </head>
 
       <body className='bg-gray'>
@@ -44,6 +53,15 @@ export default function RootLayout({ children }) {
       <script>
         AOS.init();
       </script>
+
+      {/* Light gallery script */}
+      <script src="js/lightgallery.umd.js"></script>
+      {/* <!-- Or use the minified version --> */}
+      <script src="js/lightgallery.min.js"></script>
+
+      {/* <!-- lightgallery plugins --> */}
+      <script src="js/plugins/lg-thumbnail.umd.js"></script>
+      <script src="js/plugins/lg-zoom.umd.js"></script>
 
       </body>
     </html>
