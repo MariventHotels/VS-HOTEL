@@ -48,7 +48,7 @@ function Navbar() {
 
         <div className='bg-green flex justify-between text-white py-1 sm:px-3 px-1'>
             <div>
-                <p className='text-xs font-semibold'>For inquiries and reservation:</p>
+                <p className='text-xs font-semibold'>For inquiries:</p>
             </div>
 
             <div className='flex justify-center text-xs font-semibold'>
