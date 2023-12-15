@@ -44,6 +44,6 @@ add 'use client' on first line
 https://www.npmjs.com/package/react-slick
 
 ### PAGE LOAD ANIMATION
-https://michalsnik.github.io/aos/
+
 https://www.npmjs.com/package/aos
 
