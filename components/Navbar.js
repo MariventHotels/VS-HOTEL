@@ -27,7 +27,7 @@ function Navbar() {
     <div className='fixed container-fluid w-full z-30 font-opensans'>
 
         {/* sidebar */}
-        <animated.aside className={`z-50 w-screen h-screen bg-gray top-0 absolute text-green p-6 ${isOpen ? 'visible' : 'hidden'}`} 
+        <animated.aside className={`z-50 w-screen h-screen bg-gray top-0 absolute text-green p-6 ${isOpen ? 'visible' : 'hidden'}`}
             style={sidebarAnimation}
         >
             <div className="container-fluid mb-10">
@@ -52,8 +52,8 @@ function Navbar() {
             </div>
 
             <div className='flex justify-center text-xs font-semibold'>
-                <p className='flex'><IoIosCall className='text-yellow text-sm sm:text-lg' /> +63919-056-7788</p>
-                <p className='flex sm:ml-5 ml-2'><GiRotaryPhone className='text-yellow text-sm sm:text-lg mr-1' /> (632) 8860-5960</p>
+                <p className='flex text-xs '><IoIosCall className='text-yellow text-sm sm:text-lg' /> +63919-056-7788</p>
+                <p className='flex sm:ml-5 ml-2 text-xs'><GiRotaryPhone className='text-yellow text-sm sm:text-lg mr-1' /> (632) 8860-5960</p>
             </div>
         </div>
 
@@ -83,6 +83,7 @@ function Navbar() {
                     <button className='bg-yellow py-2 px-5 text-white text-sm rounded-sm'>BOOK NOW</button>
                     <button className='bg-yellow py-2 px-5 text-dark text-2xl pl-2'><RxHamburgerMenu /></button>
                 /div> */}
+
             </div>
         </nav>
 
