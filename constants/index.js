@@ -13,7 +13,7 @@ export const MENU_OPT = [
 ]
 
 export const ROOM_TYPE = [
-    { href: '/singleroom', image: '/rooms/singleroom/1.jpg', key: 'singleroom', label: 'Single Room', subtext: 'Comfortably relaxing, 21 square meters with queen-size bed.'  },
+    { href: '/standardjunior', image: '/rooms/singleroom/1.jpg', key: 'singleroom', label: 'Single Room', subtext: 'Comfortably relaxing, 21 square meters with queen-size bed.'  },
     { href: '/standardqueen', image: '/rooms/standardqueen/1.jpg', key: 'standardqueenroom', label: 'Standard Queen Room', subtext: 'Cozy up in our Standard Queen, equipped with a queen-size bed.'  },
     { href: '/suiteroom', image: '/rooms/suiteroom/1.jpg', key: 'suiteroom', label: 'Suite Room', subtext: 'Retreat to a perfect sanctuary in the heart of the city and experience a luxurious stay in our Suite Room. The expansive suite offers stylish amenities, a separate lounge and living room with garden views. Luxuriate in a well-appointed bathroom with separate shower and bathtub.'  },
     { href: '/kingroom', image: '/rooms/kingroom/1.jpg', key: 'kingroom', label: 'King Room', subtext: 'Upgrade to King Room for a chic staycation. Unwind, curl up in a generous bed or revel in the modern bathroom with separate shower and bathtub. Perfect for families travelling together, and for long-stay leisure or business travelers.'  },
@@ -25,7 +25,7 @@ export const SINGLE_ROOM = [
     {
         //highlights
         inclusionA: [
-            { list: 'Sleeps maximum of 1 guest' },
+            { list: 'Sleeps maximum of 2 guest' },
             { list: 'Smart TV' },
             { list: 'Coffee and Tea Making Facilities' },
             { list: 'Safe Box' },
@@ -33,7 +33,7 @@ export const SINGLE_ROOM = [
         ],
 
         inclusionB: [
-            { image: '/icons/Capacity.png', label: 'CAPACITY', subtext: '1 (One person)' },
+            { image: '/icons/Capacity.png', label: 'CAPACITY', subtext: '2 (Two person)' },
             { image: '/icons/room size.png', label: 'ROOM SIZE', subtext: '21sqm' },
             { image: '/icons/breakfast.png', label: 'PLATED BREAKFAST', subtext: 'MEAL'
             },

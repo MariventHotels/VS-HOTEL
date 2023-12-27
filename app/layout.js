@@ -64,6 +64,8 @@ export default function RootLayout({ children }) {
       <script src="js/plugins/lg-zoom.umd.js"></script>
 
       </body>
+
+
     </html>
   )
 }

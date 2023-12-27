@@ -69,21 +69,21 @@ function DiningPage() {
                   <hr className='text-lightdark sm:mt-5 mt-4' />
               </div>
 
-              <div className="grid grid-cols-2 gap-10 sm:mx-24">
+              <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 sm:mx-24">
+              {MENU_OPT.map((items, index) => (
                 <LightGallery
                   className=""
                   onBeforeSlide={onBeforeSlide}
                   download= {false}
                   counter={false}
                 >
-                  {MENU_OPT.map((items, index) => (
                     <>
                       <a href={items.href}>
                         <img src={items.image} alt={items.key} className='w-full' />
                       </a>
                     </>
-                  ))}
                 </LightGallery>
+                 ))}
               </div>
 
               <div className="container mt-10">

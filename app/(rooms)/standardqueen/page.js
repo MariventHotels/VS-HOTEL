@@ -11,7 +11,7 @@ function StandardQueen() {
             <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                    <h1 className='sm:text-3xl text-xl font-playfair text-green'>STANDARD QUEEN ROOM</h1>
+                    <h1 className='sm:text-3xl text-xl font-playfair text-green'>STANDARD QUEEN</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
                 <p className='pt-3 pb-3 text-dark font-opensans sm:w-3/4 mx-auto text-sm '>Cozy up in our Standard Queen Room, equipped with a queen-size bed.</p>

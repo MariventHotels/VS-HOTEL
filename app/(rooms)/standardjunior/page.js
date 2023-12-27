@@ -4,14 +4,14 @@ import React from 'react';
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function SingleRoom() {
+function StandardJuniorRoom() {
   return (
     <>
       <div className="container-fluid h-full sm:m-[120px] my-24 mx-2" data-aos="fade-up">
                 <div className="container text-center mx-auto">
                     <div className="grid grid-cols-3">
                         <hr className='text-lightdark sm:mt-5 mt-4' />
-                        <h1 className='sm:text-3xl text-xl font-playfair text-green'>SINGLE ROOM</h1>
+                        <h1 className='sm:text-3xl text-xl font-playfair text-green'>STANDARD JUNIOR</h1>
                         <hr className='text-lightdark sm:mt-5 mt-4' />
                     </div>
                     <p className='pt-3 pb-3 text-dark font-opensans sm:w-3/4 mx-auto text-sm '>Comfortably relaxing, 21 square meters with queen-size bed.</p>
@@ -134,4 +134,4 @@ function SingleRoom() {
   )
 }
 
-export default SingleRoom
+export default StandardJuniorRoom

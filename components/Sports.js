@@ -55,8 +55,8 @@ function Sports() {
                         <h1 className='sm:text-3xl text-lg font-playfair text-green'>SPORTS CLUB</h1>
                         <hr className='text-lightdark sm:mt-5 mt-4' />
                     </div>
-                    <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm'>VS Club is the largest indoor sports club in the country. The first of its kind, our space offers you access to a multititude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle. Whether you want to spend a night bowling with your family, relax in our water spa pools, play a game of tennis or join studio classes, we’ve got you covered.</p>
-                    <a href="https://victoriasportsclub.com/"><button className='bg-green pl-5 pr-5 pt-2 pb-2 text-white mt-2 font-playfair text-xs rounded-sm custom-btn'>EXPLORE THE SPORTS CLUB</button></a>
+                    <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto sm:text-sm'>VS Club is the largest indoor sports club in the country. The first of its kind, our space offers you access to a multititude of sports facilities and state of- the-art fitness equipment to cater to your active lifestyle. Whether you want to spend a night bowling with your family, relax in our water spa pools, play a game of tennis or join studio classes, we’ve got you covered.</p>
+                    <a href="https://victoriasportsclub.com/"><button className='bg-green pl-5 pr-5 pt-2 pb-2 text-white mt-2 font-playfair text-[0.7rem] sm:text-xs rounded-sm custom-btn'>EXPLORE THE SPORTS CLUB</button></a>
                 </div>
 
                 <div className="container-fluid mt-10 mx-auto">

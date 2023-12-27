@@ -12,9 +12,11 @@ function Footer() {
             <p className='font-opensans text-sm text-dark lg:col-span-4 mb-4 sm:mb-0'>To receive updates about exclusive experiences, events, new destinations and more, please register your interest.</p>
           </div>
 
-          <div className='text-right flex'>
-            <input className='py-2 px-2 w-full bg-white border-solid border-green border-2 text-sm outline-none' type="email" placeholder='hello@gmail.com' />
-            <button className='bg-green py-2 px-2 w-3/6 text-white font-playfair text-sm'>Sign Up</button>
+          <div>
+            <form action="https://lascasasfilipinas.us1.list-manage.com/subscribe/post?u=2dc85a100274ce1d29cb7076c&amp;id=81f43e7f29" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" className='text-right flex bg-slate-800'>
+              <input type="email" name="EMAIL" id="mce-EMAIL" placeholder='hello@gmail.com' required className='py-2 px-2 w-full bg-white border-solid border-green border-2 text-sm outline-none' />
+              <input type="submit" value="Sign Up" id="mc-embedded-subscribe" className='bg-green py-2 px-2 w-1/2 cursor-pointer text-white font-playfair text-sm' />
+            </form>
           </div>
         </div>
 

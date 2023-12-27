@@ -48,12 +48,12 @@ function Navbar() {
 
         <div className='bg-green flex justify-between text-white py-1 sm:px-3 px-1'>
             <div>
-                <p className='text-xs font-semibold'>For inquiries & reservation:</p>
+                <p className='text-[0.6rem] sm:text-xs font-semibold'>For inquiries & reservation:</p>
             </div>
 
             <div className='flex justify-center text-xs font-semibold'>
-                <p className='flex text-xs '><IoIosCall className='text-yellow text-sm sm:text-lg' /> +63919-056-7788</p>
-                <p className='flex sm:ml-5 ml-2 text-xs'><GiRotaryPhone className='text-yellow text-sm sm:text-lg mr-1' /> (632) 8860-5960</p>
+                <p className='flex text-[0.6rem] sm:text-xs'><IoIosCall className='text-yellow text-sm sm:text-lg' /> +63919-056-7788</p>
+                <p className='flex sm:ml-5 ml-2 text-[0.6rem] sm:text-xs'><GiRotaryPhone className='text-yellow text-sm sm:text-lg mr-1' /> (632) 8860-5960</p>
             </div>
         </div>
 
