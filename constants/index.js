@@ -8,8 +8,8 @@ export const NAV_LINKS = [
 ]
 
 export const MENU_OPT = [
-    { href: '/menu/menuA.jpg', image: '/menu/menuA.jpg', key: 'menuA' },
-    { href: '/menu/menuB.jpg', image: '/menu/menuB.jpg', key: 'menuB' }
+    { href: '/menu/VSCAFE_Menu_1.jpg', image: '/menu/VSCAFE_Menu_1.jpg', key: 'MENU A' },
+    { href: '/menu/VSCAFE_Menu_2.jpg', image: '/menu/VSCAFE_Menu_2.jpg', key: 'MENU B' }
 ]
 
 export const ROOM_TYPE = [

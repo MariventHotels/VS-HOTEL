@@ -15,6 +15,7 @@ function ConventionCenter() {
         </div>
 
         <div className=''>
+          {/* Mapping out spaces data from /constants/index.js */}
           {EVENT_SPACES.map((index) => (
             <>
               {index.Spaces.map((indexb) => (
