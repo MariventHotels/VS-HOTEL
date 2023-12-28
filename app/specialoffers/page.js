@@ -3,7 +3,7 @@ import React from 'react'
 function SpecialOffers() {
   return (
     <>
-        <div className="container-fluid h-full lg:m-[120px] my-24 mx-2 mb-10" data-aos="fade-up">
+        <div className="container-fluid h-full lg:m-[50px] my-24 mx-2 mb-10" data-aos="fade-up">
             <div className="text-center sm:mx-auto mx-2">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
