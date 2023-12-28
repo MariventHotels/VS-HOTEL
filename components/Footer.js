@@ -64,7 +64,7 @@ function Footer() {
 
           <hr className='text-lightdark my-10' />
 
-          <div className="container mb-10">
+          <div className="container sm:mb-10 mb-20">
             <p className='text-sm font-opensans text-dark'>Copyright © 2023 VS Hotel. All Rights Reserved</p>
           </div>
         </div>
