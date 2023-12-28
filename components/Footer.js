@@ -14,8 +14,8 @@ function Footer() {
 
           <div>
             <form action="https://lascasasfilipinas.us1.list-manage.com/subscribe/post?u=2dc85a100274ce1d29cb7076c&amp;id=81f43e7f29" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" className='text-right flex bg-slate-800'>
-              <input type="email" name="EMAIL" id="mce-EMAIL" placeholder='hello@gmail.com' required className='py-2 px-2 w-full bg-white border-solid border-green border-2 text-sm outline-none' />
-              <input type="submit" value="Sign Up" id="mc-embedded-subscribe" className='bg-green py-2 px-2 w-1/2 cursor-pointer text-white font-playfair text-sm' />
+              <input type="email" name="EMAIL" id="mce-EMAIL" placeholder='hello@gmail.com' required className='py-2 px-2 w-3/4 bg-white border-solid border-green border-2 text-sm outline-none' />
+              <input type="submit" value="Sign Up" id="mc-embedded-subscribe" className='bg-green py-2 px-2 cursor-pointer w-1/4 text-white font-playfair text-sm  border-green border-2' />
             </form>
           </div>
         </div>

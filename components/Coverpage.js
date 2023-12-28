@@ -21,27 +21,27 @@ function Coverpage() {
           showIndicators={false}
         >
           <div>
-              <img src="/carousel/homepage/1.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl1.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
 
           <div>
-              <img src="/carousel/homepage/2.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl2.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
 
           <div>
-              <img src="/carousel/homepage/3.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl3.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
 
           <div>
-              <img src="/carousel/homepage/4.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl4.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
 
           <div>
-              <img src="/carousel/homepage/5.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl5.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
 
           <div>
-              <img src="/carousel/homepage/6.jpg" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
+              <img src="/carousel/homepage/crl6.png" alt='test' className='h-full sm:[h-3/6] lg:h-screen' />
           </div>
         </Carousel>
 
