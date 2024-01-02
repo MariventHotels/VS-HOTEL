@@ -17,7 +17,8 @@ export const ROOM_TYPE = [
     { href: '/standardqueen', image: '/rooms/standardqueen/1.jpg', key: 'standardqueenroom', label: 'Standard Queen Room', subtext: 'Cozy up in our Standard Queen, equipped with a queen-size bed.'  },
     { href: '/suiteroom', image: '/rooms/suiteroom/1.jpg', key: 'suiteroom', label: 'Suite Room', subtext: 'Retreat to a perfect sanctuary in the heart of the city and experience a luxurious stay in our Suite Room. The expansive suite offers stylish amenities, a separate lounge and living room with garden views. Luxuriate in a well-appointed bathroom with separate shower and bathtub.'  },
     { href: '/kingroom', image: '/rooms/kingroom/1.jpg', key: 'kingroom', label: 'King Room', subtext: 'Upgrade to King Room for a chic staycation. Unwind, curl up in a generous bed or revel in the modern bathroom with separate shower and bathtub. Perfect for families travelling together, and for long-stay leisure or business travelers.'  },
-    { href: '/premiumqueen', image: '/rooms/premiumqueen/1.jpg', key: 'premiumqueenroom', label: 'Premium Queen Room', subtext: 'Spacious with 30-33 square meters, Premium Queen comes with a queen-size bed and contemporary amenities.'  }
+    { href: '/premiumqueen', image: '/rooms/premiumqueen/1.jpg', key: 'premiumqueenroom', label: 'Premium Queen Room', subtext: 'Spacious with 30-33 square meters, Premium Queen comes with a queen-size bed and contemporary amenities.'  },
+    { href: '/familyroom', image: '/rooms/familyroom/1.jpg', key: 'familyroom', label: 'Family Room', subtext: 'Our Family Room is one of the spacious in the city. Inviting and relaxing with separate bathroom shower and bathtub.'  },
 ]
 
 //ROOM VARIANTS
@@ -152,6 +153,36 @@ export const PREMIUM_QUEEN = [
 
         inclusionB: [
             { image: '/icons/Capacity.png', label: 'CAPACITY', subtext: '2 (Two persons)' },
+            { image: '/icons/room size.png', label: 'ROOM SIZE', subtext: '33sqm' },
+            { image: '/icons/breakfast.png', label: 'PLATED BREAKFAST', subtext: 'MEAL'
+            },
+        ],
+
+        inclusionC: [
+            { image: '/icons/pool.png', name: 'KIDDIE POOL' },
+            { image: '/icons/gym.png', name: 'GYM' },
+            { image: '/icons/sauna.png', name: 'WATER SPA' },
+        ],
+    }
+]
+
+export const FAMILY_ROOM = [
+    {
+        //highlights
+        inclusionA: [
+            { list: 'Sleeps maximum of 4 guests' },
+            { list: '33-35 square meters' },
+            { list: 'Connecting Rooms' },
+            { list: 'Smart TV' },
+            { list: 'Separate bathtub and shower' },
+            { list: 'Coffee and Tea Making Facilities' },
+            { list: 'Writing Desk' },
+            { list: 'Safe Box' },
+            { list: 'Iron & Ironing board – upon request' }
+        ],
+
+        inclusionB: [
+            { image: '/icons/Capacity.png', label: 'CAPACITY', subtext: '4 (Four persons)' },
             { image: '/icons/room size.png', label: 'ROOM SIZE', subtext: '33sqm' },
             { image: '/icons/breakfast.png', label: 'PLATED BREAKFAST', subtext: 'MEAL'
             },
