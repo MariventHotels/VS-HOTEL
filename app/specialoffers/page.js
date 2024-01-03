@@ -44,11 +44,8 @@ function SpecialOffers() {
                                         </>
                                     ))}
 
-                                    <hr className='mt-8 mb-8 text-gray' />
-                                    <div className="container grid grid-cols-2 sm:pb-0 mb-5 lg:mb-0">
-                                        <a href="/specialoffers" className='font-playfair text-sm underline text-green'>See more</a>
-                                        <a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MzgzMA==&individual=true" className='font-playfair text-sm underline text-green'>Avail now</a>
-                                    </div>
+                                    <p className='italic text-dark text-sm pt-5 mb-8'>Terms and conditions apply</p>
+
                                 </div>
                             </div>
                         </div>
