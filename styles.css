@@ -1,3 +1,7 @@
 .custom-btn {
     @apply transition-transform transform hover:scale-105;
 }
+
+.carousel.carousel-slider .control-arrow:hover{
+    background-color: transparent;
+}
