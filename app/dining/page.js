@@ -93,15 +93,15 @@ function DiningPage() {
 
             {/**GASTRO BAR */}
 
-            <div className="container text-center mx-auto sm:mt-14 mt-10" data-aos="fade-up">
+            {/* <div className="container text-center mx-auto sm:mt-14 mt-10" data-aos="fade-up">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                    <h1 className='sm:text-2xl text-xl font-playfair text-green'>HOTEL DINING</h1>
+                    <h1 className='sm:text-2xl text-xl font-playfair text-green'>GASTRO BAR</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                </div>
+                </div> */}
 
                 {/**CAROUSEL */}
-                <div className="container h-2/3 sm:mt-10 mt-4 mx-auto">
+                {/* <div className="container h-2/3 sm:mt-10 mt-4 mx-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -126,7 +126,7 @@ function DiningPage() {
                     </div>
                   </Carousel>
                 </div>
-            </div>
+            </div> */}
         </div>
     </>
   )

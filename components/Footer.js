@@ -30,8 +30,8 @@ function Footer() {
           <p className='text-sm text-dark font-opensans'>9F, 799 Victoria Sports Tower, EDSA Southbound, Quezon City, 1103 Metro Manila</p>
 
           <div className='flex justify-center my-4 text-green'>
-            <a href="https://www.facebook.com/vshotelph?mibextid=9R9pXO"><FaFacebookF className='text-xl mx-2' /></a>
-            <a href="https://www.instagram.com/vshotelph?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram className='text-2xl mx-2' /></a>
+            <a href="https://www.facebook.com/vshotelph?mibextid=9R9pXO" target='_blank' ><FaFacebookF className='text-xl mx-2' /></a>
+            <a href="https://www.instagram.com/vshotelph?igshid=OGQ5ZDc2ODk2ZA==" target='_blank' ><FaInstagram className='text-2xl mx-2' /></a>
           </div>
 
           <div className="grid sm:grid-cols-3 sm:my-10">
@@ -57,7 +57,7 @@ function Footer() {
                 <p className='text-sm text-dark py-1'><a href="https://www.lascasasfilipinas.com/">Las Casas Filipinas de Acuzar</a></p>
                 <p className='text-sm text-dark py-1'><a href="https://www.lascasasqc.com/">Las Casas Quezon City</a></p>
                 <p className='text-sm text-dark py-1'><a href="https://victoriasportsclub.com/">Victoria Sports Club</a></p>
-                <p className='text-sm text-dark py-1'><a href="https://victoriaskin.ph/">Victoria Skin</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://www.facebook.com/victoriaskinofficial/">Victoria Skin</a></p>
                 <p className='text-sm text-dark py-1'><a href="https://www.nsjbi.com.ph/">New San Jose Builders, Inc.</a></p>
             </div>
           </div>

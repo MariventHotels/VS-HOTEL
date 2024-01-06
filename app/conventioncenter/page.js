@@ -11,7 +11,7 @@ function ConventionCenter() {
                 <h1 className='sm:text-3xl text-lg font-playfair text-green'>EVENT SPACES</h1>
                 <hr className='text-lightdark sm:mt-5 mt-4' />
             </div>
-            <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Our dining venues are synonymous with living well and quality dining experience. Flavorful, freshly prepared choices take center stage for your dining enjoyment. Mingle while watching live streaming of your favorite sports in our Bistro Bar. Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
+            <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm text-center'>Our dining venues are synonymous with living well and quality dining experience. Flavorful, freshly prepared choices take center stage for your dining enjoyment. Mingle while watching live streaming of your favorite sports in our Bistro Bar. Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
         </div>
 
         <div className=''>
@@ -27,7 +27,7 @@ function ConventionCenter() {
 
                     <div className='bg-white sm:p-5 p-2'>
                       <h1 className='font-playfair text-2xl text-green'>{indexb.name}</h1>
-                      <p className='font-opensans text-sm py-2 text-dark'>{indexb.subtext}</p>
+                      <p className='font-opensans text-sm py-2 text-dark text-justify'>{indexb.subtext}</p>
                       <h4 className='font-playfair text-green text-lg mt-5 mb-3'>{indexb.sub_name}</h4>
                       <table className='w-full'>
                         <tbody>

@@ -3,8 +3,8 @@ import Coverpage from '@/components/Coverpage'
 import Rooms from '@/components/Rooms';
 import Sports from '@/components/Sports';
 import Experience from '@/components/Experience';
-import Featured from '@/components/Featured';
 import AdsModal from '@/components/Modal';
+import IgWidget from '@/components/Widget';
 
 export default function Home() {
   return (
@@ -14,8 +14,7 @@ export default function Home() {
         <Rooms />
         <Sports />
         <Experience />
-        <Featured />
-        
+        <IgWidget />
       </>
   )
 }

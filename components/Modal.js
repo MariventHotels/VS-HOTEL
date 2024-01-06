@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -7,6 +7,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function AdsModal() {
 
   const [showModal, setShowModal] = useState(true);
+
+  // //display once
+  // useEffect(()=>{
+  //   let pop_status = localStorage.getItem('pop_status');
+  //   if(!pop_status){
+  //     setShowModal(true);
+  //     localStorage.setItem('pop_status',1);
+  //   }
+  // },[])
+  // if(!showModal) return null;
 
   return (
     <>
@@ -29,7 +39,11 @@ function AdsModal() {
                     </button>
                 </div>
                 {/*body*/}
-                <div className="relative flex-auto bg-">
+
+                <div>
+                  <img src="/ads/VS Hotel NYE 2023 socmed1.jpg" alt="" />
+                </div>
+                {/* <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -52,7 +66,7 @@ function AdsModal() {
                     </div>
                   </Carousel>
 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -224,7 +224,7 @@ export const EVENT_SPACES = [
         },
 
         {
-            image: '/conventioncenter/FRooftopBR.png',
+            image: '/conventioncenter/FRooftopBR.jpg',
             name: 'City View Function Room',
             subtext: 'Enjoy the breathtaking view from the 10th floor of the VS Tower with a sophisticated venue and a complete event set-up of your choice.',
             sub_name: 'Capacity',
@@ -247,7 +247,7 @@ export const EVENT_SPACES = [
         },
 
         {
-            image: '/conventioncenter/FMexico.png',
+            image: '/conventioncenter/FMexico.jpg',
             name: 'Mexico',
             subtext: 'Work in a different ambiance away from your office. VS Hotel’s Meeting rooms are perfect from Small Private Business Meetings and Brainstorming.',
             sub_name: 'Capacity',

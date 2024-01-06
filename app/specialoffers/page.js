@@ -5,14 +5,14 @@ import { HTL_OFFERS } from '@/constants';
 function SpecialOffers() {
   return (
     <>
-        <div className="container-fluid h-full lg:m-[50px] my-24 mx-2 mb-10" data-aos="fade-up">
-            <div className="text-center sm:mx-auto mx-2">
+        <div className="container-fluid h-full lg:m-[120px] my-24 mx-2 mb-10" data-aos="fade-up">
+            <div className="container text-center mx-auto">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                    <h1 className='sm:text-3xl text-lg font-playfair text-green'>SPECIAL OFFERS</h1>
+                    <h1 className='sm:text-3xl text-lg font-playfair text-green'>EXCLUSIVE OFFERS</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='py-3 px-2 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
+                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
             </div>
 
             {HTL_OFFERS.map((index) => (
