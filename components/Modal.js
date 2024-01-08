@@ -1,26 +1,31 @@
 'use client';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function AdsModal() {
 
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
-  // //display once
-  // useEffect(()=>{
-  //   let pop_status = localStorage.getItem('pop_status');
-  //   if(!pop_status){
-  //     setShowModal(true);
-  //     localStorage.setItem('pop_status',1);
-  //   }
-  // },[])
-  // if(!showModal) return null;
+  useEffect(() => {
+    // Function to open the modal after a delay (e.g., 2000 milliseconds or 2 seconds)
+    const openModalWithDelay = () => {
+      setTimeout(() => {
+        setShowModal(true);
+      }, 60000); // Adjust the delay as needed
+    };
+
+    // Call the function to open the modal after component mounting
+    openModalWithDelay();
+
+    // Clean up function to clear the timeout in case the component unmounts before the delay completes
+    return () => clearTimeout(openModalWithDelay);
+  }, []); // Empty dependency array ensures that the effect runs only once after the initial render
 
   return (
     <>
-     {showModal ? (
+     {showModal && (
         <>
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-blur-sm"
@@ -72,9 +77,9 @@ function AdsModal() {
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
-      ) : null}
+      )}
     </>
-  )
-}
+  );
+};
 
-export default AdsModal
+export default AdsModal;
