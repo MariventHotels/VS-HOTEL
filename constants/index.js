@@ -18,7 +18,7 @@ export const ROOM_TYPE = [
     { href: '/suiteroom', image: '/rooms/suiteroom/1.jpg', key: 'suiteroom', label: 'Suite Room', subtext: 'Retreat to a perfect sanctuary in the heart of the city and experience a luxurious stay in our Suite Room. The expansive suite offers stylish amenities, a separate lounge and living room with garden views. Luxuriate in a well-appointed bathroom with separate shower and bathtub.'  },
     { href: '/kingroom', image: '/rooms/kingroom/1.jpg', key: 'kingroom', label: 'King Room', subtext: 'Upgrade to King Room for a chic staycation. Unwind, curl up in a generous bed or revel in the modern bathroom with separate shower and bathtub. Perfect for families travelling together, and for long-stay leisure or business travelers.'  },
     { href: '/premiumqueen', image: '/rooms/premiumqueen/1.jpg', key: 'premiumqueenroom', label: 'Premium Queen Room', subtext: 'Spacious with 30-33 square meters, Premium Queen comes with a queen-size bed and contemporary amenities.'  },
-    { href: '/familyroom', image: '/rooms/familyroom/1.jpg', key: 'familyroom', label: 'Family Room', subtext: 'Our Family Room is one of the spacious in the city. Inviting and relaxing with separate bathroom shower and bathtub.'  },
+    // { href: '/familyroom', image: '/rooms/familyroom/1.jpg', key: 'familyroom', label: 'Family Room', subtext: 'Our Family Room is one of the spacious in the city. Inviting and relaxing with separate bathroom shower and bathtub.'  },
 ]
 
 //ROOM VARIANTS
