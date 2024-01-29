@@ -47,13 +47,6 @@ function PremiumQueen() {
                 <div>
                     <img src="/rooms/premiumqueen/carousel/5.jpg" alt='test' className='h-full sm:h-2/3' />
                 </div>
-                <div>
-                    <img src="/rooms/premiumqueen/carousel/6.jpg" alt='test' className='h-full sm:h-2/3' />
-                </div>
-                <div>
-                    <img src="/rooms/premiumqueen/carousel/7.jpg" alt='test' className='h-full sm:h-2/3' />
-                </div>
-
               </Carousel>
             </div>
 

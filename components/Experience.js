@@ -23,7 +23,7 @@ function Experience() {
                 </div>
 
                 <div>
-                <img src="/cafe/1.png" alt="" className='w-full sm:h-96 rounded-sm' />
+                <img src="/cafe/VS Hotel Food web.jpg" alt="" className='w-full sm:h-96 rounded-sm' />
                   <p className='mt-3 text-sm text-dark'>COZY CAFE THAT SERVES CONVENIENT AND HEARTY COMFORT FOOD</p>
                   <h1 className='mt-1 mb-1 font-playfair text-green sm:text-3xl text-2xl font-medium'>VS Café</h1>
                   <p className='text-sm mb-1 text-dark text-justify'>Our dining venues are synonymous with living well and quality dining experience. Flavorful, freshly prepared choices take center stage for your dining enjoyment. Mingle while watching live streaming of your favorite sports in our Bistro Bar.

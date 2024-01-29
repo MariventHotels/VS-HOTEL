@@ -13,7 +13,7 @@ function AdsModal() {
     const openModalWithDelay = () => {
       setTimeout(() => {
         setShowModal(true);
-      }, 60000); // Adjust the delay as needed
+      }, 30000); // Adjust the delay as needed
     };
 
     // Call the function to open the modal after component mounting
