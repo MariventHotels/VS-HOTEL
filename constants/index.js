@@ -315,56 +315,55 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "A NEW YEAR'S EVE COUNTDOWN",
-                title: 'Christmas Offer',
-                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
-                rate: 'P6,600',
-                booking: 'December 31, 2023',
-                stay: 'Jan 1, 2024',
-                inclusions: [
-                    {
-                        inc_name: 'Room Accommodation'
-                    },
-                    {
-                        inc_name: 'Set Breakfast'
-                    },
-                    {
-                        inc_name: 'Access to Swimming Pool & Water Spa'
-                    },
-                    {
-                        inc_name: 'Main Gym & Play Gym Access'
-                    },
-                    {
-                        inc_name: 'Passes to the Black & White Masquerade Party'
-                    }
-                ]
-            },
+                label: "VALENTINE'S DAY OFFER",
+                title: "VALENTINE'S STAY",
+                desc: 'Unlock the magic of love with VS Hotel’s enchanting Valentine’s Stay. Let our exclusive packages transform your stay into a symphony of romance from February 14 to 18, 2024, and immerse yourselves in luxury, romance, and unforgettable moments.',
+                packageB: 'APHRODITE',
+                packageA: 'VENUS',
+                rateA: 'PHP 8,000',
+                rateB: 'PHP 7,500',
+                booking: 'January 24, 2024',
+                stay: 'February 12, 2024',
 
-            {
-                label: "A NEW YEAR'S EVE COUNTDOWN",
-                title: 'Christmas Offer',
-                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
-                rate: 'P6,600',
-                booking: 'December 31, 2023',
-                stay: 'January 1, 2024',
-                inclusions: [
+                inclusionsA: [
                     {
-                        inc_name: 'Room Accommodation'
+                        inc_name: 'Room accomodation with romantic setup'
                     },
                     {
-                        inc_name: 'Set Breakfast'
+                        inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
                     },
                     {
-                        inc_name: 'Access to Swimming Pool & Water Spa'
+                        inc_name: 'Set breakfast for two (2)'
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports' gym and pool facilities"
                     },
                     {
                         inc_name: 'Main Gym & Play Gym Access'
                     },
                     {
-                        inc_name: 'Passes to the Black & White Masquerade Party'
+                        inc_name: 'Access to Victoria Sports facilities with FREE passess to private theater'
+                    },
+                    {
+                        inc_name: ' PHP 1,000 worth of consumable voucher at VSports Bar'
+                    }
+                ],
+
+                inclusionsB: [
+                    {
+                        inc_name: 'Room Accomodation with romantic setup'
+                    },
+                    {
+                        inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
+                    },
+                    {
+                        inc_name: 'Set breakfast for two (2)'
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports' gym and pool facilities"
                     }
                 ]
-            },
+            }
         ]
     }
 ]

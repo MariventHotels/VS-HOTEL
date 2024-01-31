@@ -13,7 +13,7 @@ function AdsModal() {
     const openModalWithDelay = () => {
       setTimeout(() => {
         setShowModal(true);
-      }, 30000); // Adjust the delay as needed
+      }, 3000); // Adjust the delay as needed
     };
 
     // Call the function to open the modal after component mounting
@@ -30,7 +30,7 @@ function AdsModal() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-blur-sm"
           >
-            <div className="relative w-auto mx-auto max-w-2xl">
+            <div className="relative w-auto mx-auto xl:max-w-xl max-w-lg">
               {/*content*/}
               <div className="border-0 rounded-lg relative flex flex-col w-full my-10 outline-none focus:outline-none px-2 sm:px-0">
                 {/*header*/}
@@ -44,9 +44,8 @@ function AdsModal() {
                     </button>
                 </div>
                 {/*body*/}
-
                 <div>
-                  <img src="/ads/VS Hotel NYE 2023 socmed1.jpg" alt="" />
+                  <img src="/ads/vs vday promo web ad.jpg" alt="" />
                 </div>
                 {/* <div className="relative flex-auto">
                   <Carousel

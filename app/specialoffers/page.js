@@ -15,7 +15,57 @@ function SpecialOffers() {
                 <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
             </div>
 
+            {/* ONE OFFER WITH MULTIPLE PACKAGES */}
             {HTL_OFFERS.map((index) => (
+                <div>{index.Offers.map((index) => (
+                    <>
+                        <div className="container-fluid sm:container mt-10 mx-auto h-auto sm:rounded-r-sm rounded-b-sm">
+                            <div className="">
+                                <div className="mb-5 text-center">
+                                    {/* <p className='font-opensans text-sm text-dark lg:mt-6'>{index.label}</p> */}
+                                    <h1 className='font-playfair text-green sm:text-3xl text-xl pt-3 pb-3'>{index.title}</h1>
+                                    <p className='sm:container font-opensans text-sm text-dark text-center'>
+                                        {index.desc}
+                                    </p>
+                                    <p className='sm:container font-opensans text-sm text-dark text-center mt-2 font-medium'>Stay Period: {index.stay} | Booking Period: {index.booking}</p>
+                                </div>
+                                <div className="">
+                                    <img src="/offers/offer.png" alt="" className='text-center mx-auto sm:rounded-l-sm rounded-t-sm' />
+                                </div>
+                                <div className="bg-gray pt-5 grid sm:grid-cols-2 gap-5">
+                                    <div className="bg-gray">
+                                        <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageB}</h1>
+                                        <p className='mb-3'>Rate starts at <b>{index.rateA}</b> nett for two (2) persons</p>
+                                        {index.inclusionsA.map((index) => (
+                                            <>
+                                                <ul className='text-dark'>
+                                                    <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
+                                                </ul>
+                                            </>
+                                        ))}
+                                    </div>
+
+                                    <div className="">
+                                        <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageA}</h1>
+                                        <p className='mb-3'>Rate starts at <b>{index.rateB}</b> nett for two (2) persons</p>
+                                        {index.inclusionsB.map((index) => (
+                                            <>
+                                                <ul className='text-dark'>
+                                                    <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
+                                                </ul>
+                                            </>
+                                        ))}
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </>
+                ))}</div>
+            ))}
+
+            {/* ONE OFFER */}
+            {/* {HTL_OFFERS.map((index) => (
                 <div>{index.Offers.map((index) => (
                     <>
                         <div className="container-fluid sm:container mt-10 mx-auto h-auto bg-white sm:rounded-r-sm rounded-b-sm">
@@ -51,7 +101,7 @@ function SpecialOffers() {
                         </div>
                     </>
                 ))}</div>
-            ))}
+            ))} */}
 
 
         </div>

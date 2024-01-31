@@ -9,7 +9,7 @@ import IgWidget from '@/components/Widget';
 export default function Home() {
   return (
       <>
-        {/* <AdsModal /> */}
+        <AdsModal />
         <Coverpage />
         <Rooms />
         <Sports />
