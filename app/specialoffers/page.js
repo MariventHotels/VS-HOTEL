@@ -35,7 +35,7 @@ function SpecialOffers() {
                                 <div className="bg-gray pt-5 grid sm:grid-cols-2 gap-5">
                                     <div className="bg-gray">
                                         <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageB}</h1>
-                                        <p className='mb-3'>Rate starts at <b>{index.rateA}</b> nett for two (2) persons</p>
+                                        <p className='mb-3'>Rate starts at <b className='text-green'>{index.rateA}</b> nett for two (2) persons</p>
                                         {index.inclusionsA.map((index) => (
                                             <>
                                                 <ul className='text-dark'>
@@ -47,7 +47,7 @@ function SpecialOffers() {
 
                                     <div className="">
                                         <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageA}</h1>
-                                        <p className='mb-3'>Rate starts at <b>{index.rateB}</b> nett for two (2) persons</p>
+                                        <p className='mb-3'>Rate starts at <b className='text-green'>{index.rateB}</b> nett for two (2) persons</p>
                                         {index.inclusionsB.map((index) => (
                                             <>
                                                 <ul className='text-dark'>
