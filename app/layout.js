@@ -75,7 +75,19 @@ export default function RootLayout({ children }) {
             }(document, 'script', 'facebook-jssdk'));
         `}
         </Script>
-        
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YV61V1YBEL"></script>
+        <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+
+          gtag('config', 'G-YV61V1YBEL');
+        `}
+
+        </Script>
+
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       <script>
