@@ -56,7 +56,6 @@ function SpecialOffers() {
                                             </>
                                         ))}
                                     </div>
-
                                 </div>
                             </div>
                         </div>
