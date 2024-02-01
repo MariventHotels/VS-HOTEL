@@ -322,8 +322,8 @@ export const HTL_OFFERS = [
                 packageA: 'VENUS',
                 rateA: 'PHP 8,000',
                 rateB: 'PHP 7,500',
-                booking: 'January 24, 2024',
-                stay: 'February 12, 2024',
+                booking: 'January 24 to February 12, 2024',
+                stay: 'February 14 to 18, 2024',
 
                 inclusionsA: [
                     {

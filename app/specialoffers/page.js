@@ -27,7 +27,7 @@ function SpecialOffers() {
                                     <p className='sm:container font-opensans text-sm text-dark text-center'>
                                         {index.desc}
                                     </p>
-                                    <p className='sm:container font-opensans text-sm text-dark text-center mt-2 font-medium'>Stay Period: {index.stay} | Booking Period: {index.booking}</p>
+                                    <p className='sm:container font-opensans text-sm text-dark text-center mt-2 font-medium'>Booking Period: {index.booking} | Stay Period: {index.stay}</p>
                                 </div>
                                 <div className="">
                                     <img src="/offers/offer.png" alt="" className='text-center mx-auto sm:rounded-l-sm rounded-t-sm' />
