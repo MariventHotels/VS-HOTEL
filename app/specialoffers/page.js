@@ -30,28 +30,30 @@ function SpecialOffers() {
                                     <p className='sm:container font-opensans text-sm text-dark text-center mt-2 font-medium'>Booking Period: {index.booking} | Stay Period: {index.stay}</p>
                                 </div>
                                 <div className="">
-                                    <img src="/offers/offer.png" alt="" className='text-center mx-auto sm:rounded-l-sm rounded-t-sm' />
+                                    <img src="/offers/vs vday promo web.jpg" alt="" className='text-center mx-auto sm:rounded-l-sm rounded-t-sm' />
                                 </div>
-                                <div className="bg-gray pt-5 grid sm:grid-cols-2 gap-5">
-                                    <div className="bg-gray">
+                        
+                                <div className="pt-5 grid sm:grid-cols-2 gap-5">
+                                    <div className="sm:text-center">
                                         <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageB}</h1>
                                         <p className='mb-3'>Rate starts at <b className='text-green'>{index.rateA}</b> nett for two (2) persons</p>
                                         {index.inclusionsA.map((index) => (
                                             <>
                                                 <ul className='text-dark'>
-                                                    <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
+                                                    <li className='text-sm my-1 flex sm:justify-center'>{index.inc_name}</li>
                                                 </ul>
                                             </>
                                         ))}
                                     </div>
 
-                                    <div className="">
+                                    <div className="sm:text-center">
                                         <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageA}</h1>
                                         <p className='mb-3'>Rate starts at <b className='text-green'>{index.rateB}</b> nett for two (2) persons</p>
                                         {index.inclusionsB.map((index) => (
                                             <>
                                                 <ul className='text-dark'>
-                                                    <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
+                                                    <li className='text-sm my-1 flex sm:justify-center'>{index.inc_name}</li>
+                                                    {/* <li className='text-sm my-1 flex justify-center'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li> */}
                                                 </ul>
                                             </>
                                         ))}
