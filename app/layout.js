@@ -49,12 +49,12 @@ export default function RootLayout({ children }) {
           </main>
         <Footer />
         <div id="fb-root"></div>
-        // Your Chat plugin code
+        {/**Your Chat plugin code */}
         <div id="fb-customer-chat" className="fb-customerchat"></div>
 
         <Script id="fb-chat" strategy="lazyOnload">
         {`
-        
+
         var chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page\_id", "112986857547753");
         chatbox.setAttribute("attribution", "biz\_inbox");

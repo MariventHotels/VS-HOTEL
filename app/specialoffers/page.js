@@ -32,7 +32,7 @@ function SpecialOffers() {
                                 <div className="">
                                     <img src="/offers/vs vday promo web.jpg" alt="" className='text-center mx-auto sm:rounded-l-sm rounded-t-sm' />
                                 </div>
-                        
+
                                 <div className="pt-5 grid sm:grid-cols-2 gap-5">
                                     <div className="sm:text-center">
                                         <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{index.packageB}</h1>
