@@ -39,7 +39,7 @@ function Footer() {
                 <h1 className='font-playfair text-xl text-dark mb-2'>Contact information</h1>
                 <p className='text-sm text-green font-semibold'>For inquiries and reservations:</p>
                 <p className='text-sm text-dark'>+63 919 056 7788 or (632) 8860-5960</p>
-                <p className='text-sm text-dark'>reservations@vshotel.com.ph</p>
+                <p className='text-sm text-dark'>reservation@vshotel.com.ph</p>
                 <p className='text-sm pt-2 text-green font-semibold'>For corporate, weddings, & social events:</p>
                 <p className='text-sm text-dark'>events@vshotel.ph</p>
             </div>
