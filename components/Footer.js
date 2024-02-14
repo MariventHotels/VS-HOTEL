@@ -41,7 +41,7 @@ function Footer() {
                 <p className='text-sm text-dark'>+63 919 056 7788 or (632) 8860-5960</p>
                 <p className='text-sm text-dark'>reservation@vshotel.com.ph</p>
                 <p className='text-sm pt-2 text-green font-semibold'>For corporate, weddings, & social events:</p>
-                <p className='text-sm text-dark'>events@vshotel.ph</p>
+                <p className='text-sm text-dark'>events@vshotel.com.ph</p>
             </div>
 
             <div>
