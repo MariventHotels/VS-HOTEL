@@ -153,7 +153,7 @@ function Bar() {
             </div>
 
             {/**CONTACT US */}
-            <div className="container-fluid">
+            <div className="container-fluid sm:block hidden">
                 <div className="relative h-full">
                     <div>
                         <img src="/bistro/contact/cntbg.JPG" className='w-full saturate-50 contrast-125 h-48 sm:h-auto' alt="contact" />
