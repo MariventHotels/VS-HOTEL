@@ -41,6 +41,7 @@ function Navbar() {
                 <li className="mb-2 py-4"><a href="/stay">Stay</a></li>
                 <li className="mb-2 py-4"><a href="/dining">Dining</a></li>
                 <li className="mb-2 py-4"><a href="/conventioncenter">Convention Center</a></li>
+                {/**<li className="mb-2 py-4"><a href="/sportsbar">Bistro</a></li> */}
                 <li className="mb-2 py-4"><a href="https://victoriasportsclub.com/">VS Club</a></li>
                 <li className="mb-2 py-4"><a href="/specialoffers">Special Offers</a></li>
             </ul>

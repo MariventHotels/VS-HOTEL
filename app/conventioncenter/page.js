@@ -39,10 +39,6 @@ function ConventionCenter() {
                               </tr>
                             </>
                           ))}
-                          <tr>
-                            <td>{}</td>
-                          </tr>
-                          <tr></tr>
                         </tbody>
                       </table>
                     </div>

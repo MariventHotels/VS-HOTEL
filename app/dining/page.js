@@ -10,7 +10,6 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import { MENU_OPT } from '@/constants';
 
-
 function DiningPage() {
 
   {{/**MENU FNCTN */}}

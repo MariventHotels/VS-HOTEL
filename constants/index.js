@@ -3,6 +3,7 @@ export const NAV_LINKS = [
     { href: '/stay', key: 'stay', label: 'STAY' },
     { href: '/dining', key: 'dining', label: 'DINING' },
     { href: '/conventioncenter', key: 'conventioncenter', label: 'CONVENTION CENTER' },
+    //{ href: '/bistro', key: 'sportsbar', label: 'BISTRO' },
     { href: 'https://victoriasportsclub.com/', key: 'vsclub', label: 'VS CLUB' },
     { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
 ]
@@ -400,4 +401,92 @@ export const FEATURED_OFFERS = [
             }
         ]
     }
+]
+
+//BISTRO OFFERS
+export const BISTRO_OFFERS = [
+    {
+        Offers: [
+            {
+                image: '/bistro/offers/offr.JPG',
+                title: 'Christmas Offer',
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
+                rate: 'P6,600',
+                stay: 'Jan 1, 2024',
+                inclusions: [
+                    {
+                        inc_name: 'Room Accommodation'
+                    },
+                    {
+                        inc_name: 'Set Breakfast'
+                    },
+                    {
+                        inc_name: 'Access to Swimming Pool & Water Spa'
+                    },
+                    {
+                        inc_name: 'Main Gym & Play Gym Access'
+                    },
+                    {
+                        inc_name: 'Passes to the Black & White Masquerade Party'
+                    }
+                ]
+            },
+
+            {
+                image: '/bistro/offers/offr.JPG',
+                title: 'Christmas Offer',
+                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
+                rate: 'P6,600',
+                stay: 'Jan 1, 2024',
+                inclusions: [
+                    {
+                        inc_name: 'Room Accommodation'
+                    },
+                    {
+                        inc_name: 'Set Breakfast'
+                    },
+                    {
+                        inc_name: 'Access to Swimming Pool & Water Spa'
+                    },
+                    {
+                        inc_name: 'Main Gym & Play Gym Access'
+                    },
+                    {
+                        inc_name: 'Passes to the Black & White Masquerade Party'
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+//BISTRO GALLERY
+export const BISTRO_GALLERY = [
+    {
+        galleryImg: '/bistro/gallery/h1.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h2.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h3.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h4.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h5.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h6.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h7.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h8.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h9.JPG'
+    },
 ]
