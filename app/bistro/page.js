@@ -33,9 +33,9 @@ function Bar() {
                     </div>
 
                     {/**TAGLINE */}
-                    <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-1/2 bottom-24 text-center text-white">
-                        <div className='mb-5 mt-5'>
-                            <img src="/bistro/VICTORIA SPORTS Bar-02.png" className='w-1/6 mx-auto' alt="bistro logo" />
+                    <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-1/2 bottom-10 text-center text-white">
+                        <div className='mb-1 sm:mb-5 mt-5'>
+                            <img src="/bistro/VICTORIA SPORTS Bar-02.png" className='w-2/5 sm:w-5/6 md:w-1/6  mx-auto' alt="bistro logo" />
                         </div>
 
                         <h1 className='2xl:text-7xl text-2xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
