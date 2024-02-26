@@ -38,7 +38,7 @@ function Bar() {
                             <img src="/bistro/VICTORIA SPORTS Bar-02.png" className='w-2/5 sm:w-5/6 md:w-1/6  mx-auto' alt="bistro logo" />
                         </div>
 
-                        <h1 className='2xl:text-7xl text-2xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
+                        <h1 className='2xl:text-7xl text-xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
                         <p className='text-xs sm:text-base lg:text-lg mx-1'>Every Friday and Saturday | 6:00PM Onwards</p>
                     </div>
                 </div>
