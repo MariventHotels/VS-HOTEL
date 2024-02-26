@@ -409,7 +409,7 @@ export const BISTRO_OFFERS = [
         Offers: [
             {
                 image: '/bistro/offers/offr.JPG',
-                title: 'Christmas Offer',
+                title: 'Offer Title',
                 desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
                 rate: 'P6,600',
                 stay: 'Jan 1, 2024',
@@ -434,7 +434,7 @@ export const BISTRO_OFFERS = [
 
             {
                 image: '/bistro/offers/offr.JPG',
-                title: 'Christmas Offer',
+                title: 'Offer Title',
                 desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
                 rate: 'P6,600',
                 stay: 'Jan 1, 2024',

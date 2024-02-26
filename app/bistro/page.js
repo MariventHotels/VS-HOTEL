@@ -79,10 +79,10 @@ function Bar() {
             </div>
 
             {/**OFFERS*/}
-           <div className="lg:mx-[120px] ml-5 mx-auto my-10">
+           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                    <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>BISTRO OFFERS</h1>
+                    <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>OFFERS</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
 
@@ -99,8 +99,8 @@ function Bar() {
                                     <div>
                                         <div className="sm:text-left">
                                             <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{indexb.title}</h1>
-                                            <p className='mb-3'>{indexb.desc}</p>
-                                            <p className='mb-3'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p>
+                                            <p className='mb-3 text-sm'>{indexb.desc}</p>
+                                            <p className='mb-3 text-sm'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p>
                                             <p>Inclusions: </p>
 
                                             {indexb.inclusions.map((indexc) => (
@@ -121,10 +121,10 @@ function Bar() {
             </div>
 
             {/**GALLERY*/}
-           <div className="container-fluid text-center mx-auto my-2 sm:my-10 p-5 sm:p-16 bg-white">
+           <div className="container-fluid text-center mx-auto sm:mt-10 p-5 sm:p-16 bg-white">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
-                    <h1 className='sm:text-3xl text-xl font-playfair text-green'>HIGHLIGHTS</h1>
+                    <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>HIGHLIGHTS</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
                 <p className='pt-3 pb-3 font-opensans lg:w-3/4 mx-auto text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo ullam impedit distinctio. Iusto esse maxime libero eveniet fugiat cumque ipsam soluta! Corporis ducimus doloremque sit a harum aliquam dolore rem quis temporibus, voluptates nemo libero obcaecati cum in blanditiis? Enim vel officia recusandae voluptas!</p>
@@ -143,7 +143,7 @@ function Bar() {
                             {BISTRO_GALLERY.map((items, index) => (
                                 <a href={items.galleryImg} className='relative w-full' >
                                 <div className='' >
-                                    <img src={items.galleryImg} className='w-full' alt="" />
+                                    <img src={items.galleryImg} className='w-full' alt="offer" />
                                 </div>
                                 </a>
                             ))}
@@ -156,13 +156,14 @@ function Bar() {
             <div className="container-fluid">
                 <div className="relative h-full">
                     <div>
-                        <img src="/bistro/contact/cntbg.JPG" className='w-full saturate-50 contrast-125 h-48' alt="" />
+                        <img src="/bistro/contact/cntbg.JPG" className='w-full saturate-50 contrast-125 h-48 sm:h-auto' alt="contact" />
                     </div>
                     <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-1/3 bottom-1/4 text-center text-white">
                         <h1 className='sm:text-5xl 2xl:text-5xl text-2xl mb-1 lg:mb-4 font-playfair'>Reach us out for more details</h1>
                         <p className='text-xs sm:text-base lg:text-lg mx-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo neque totam blanditiis qui repellat possimus eius maxime nam nobis eveniet?</p>
-                        <a href="/"><button className='py-1 sm:py-2 px-10 outline outline-1 mt-5 cursor-pointer text-xs'><a href="https://www.facebook.com/profile.php?id=61555962214287">CONTACT US</a></button></a>
-                    </div>
+                        {/**<a href="/"><a href="https://www.facebook.com/profile.php?id=61555962214287"></a><button className='py-1 sm:py-2 px-10 outline outline-1 mt-5 cursor-pointer text-xs'>CONTACT US</button></a> */}
+                        <button className='py-1 sm:py-2 px-10 outline outline-1 mt-5 cursor-pointer text-xs'><a href="https://www.facebook.com/profile.php?id=61555962214287">CONTACT US</a></button>
+                        </div>
                 </div>
             </div>
 
