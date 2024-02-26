@@ -160,7 +160,7 @@ function Bar() {
                     </div>
                     <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-1/3 bottom-1/4 text-center text-white">
                         <h1 className='sm:text-5xl 2xl:text-5xl text-2xl mb-1 lg:mb-4 font-playfair'>Reach us out for more details</h1>
-                        <p className='text-xs sm:text-base lg:text-lg mx-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo neque totam blanditiis qui repellat possimus eius maxime nam nobis eveniet?</p>
+                        <p className='text-xs sm:text-base lg:text-lg mx-1'>We are here to provide dedicated assistance with any questions you may have, offering seamless guidance and support throughout your inquiries.</p>
                         {/**<a href="/"><a href="https://www.facebook.com/profile.php?id=61555962214287"></a><button className='py-1 sm:py-2 px-10 outline outline-1 mt-5 cursor-pointer text-xs'>CONTACT US</button></a> */}
                         <button className='py-1 sm:py-2 px-10 outline outline-1 mt-5 cursor-pointer text-xs'><a href="https://www.facebook.com/profile.php?id=61555962214287">CONTACT US</a></button>
                         </div>
