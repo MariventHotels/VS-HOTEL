@@ -312,53 +312,83 @@ export const EVENT_SPACES = [
 ]
 
 //SPECIAL OFFERS
+// export const HTL_OFFERS = [
+//     {
+//         Offers: [
+//             {
+//                 label: "VALENTINE'S DAY OFFER",
+//                 title: "VALENTINE'S STAY",
+//                 desc: 'Unlock the magic of love with VS Hotel’s enchanting Valentine’s Stay. Let our exclusive packages transform your stay into a symphony of romance from February 14 to 18, 2024, and immerse yourselves in luxury, romance, and unforgettable moments.',
+//                 packageB: 'APHRODITE',
+//                 packageA: 'VENUS',
+//                 rateA: 'PHP 8,000',
+//                 rateB: 'PHP 7,500',
+//                 booking: 'January 24 to February 12, 2024',
+//                 stay: 'February 14 to 18, 2024',
+
+//                 inclusionsA: [
+//                     {
+//                         inc_name: 'Room accomodation with romantic setup'
+//                     },
+//                     {
+//                         inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
+//                     },
+//                     {
+//                         inc_name: 'Set breakfast for two (2)'
+//                     },
+//                     {
+//                         inc_name: "Access to Victoria Sports' gym and pool facilities"
+//                     },
+//                     {
+//                         inc_name: 'Main Gym & Play Gym Access'
+//                     },
+//                     {
+//                         inc_name: 'Access to Victoria Sports facilities with FREE passess to private theater'
+//                     },
+//                     {
+//                         inc_name: ' PHP 1,000 worth of consumable voucher at VSports Bar'
+//                     }
+//                 ],
+
+//                 inclusionsB: [
+//                     {
+//                         inc_name: 'Room Accomodation with romantic setup'
+//                     },
+//                     {
+//                         inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
+//                     },
+//                     {
+//                         inc_name: 'Set breakfast for two (2)'
+//                     },
+//                     {
+//                         inc_name: "Access to Victoria Sports' gym and pool facilities"
+//                     }
+//                 ]
+//             }
+//         ]
+//     }
+// ]
+
 export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "VALENTINE'S DAY OFFER",
-                title: "VALENTINE'S STAY",
-                desc: 'Unlock the magic of love with VS Hotel’s enchanting Valentine’s Stay. Let our exclusive packages transform your stay into a symphony of romance from February 14 to 18, 2024, and immerse yourselves in luxury, romance, and unforgettable moments.',
-                packageB: 'APHRODITE',
-                packageA: 'VENUS',
-                rateA: 'PHP 8,000',
-                rateB: 'PHP 7,500',
-                booking: 'January 24 to February 12, 2024',
-                stay: 'February 14 to 18, 2024',
+                // label: "HOTEL OFFERS",
+                title: "RAMADAN STAYCATION",
+                //desc: 'Unlock the magic of love with VS Hotel’s enchanting Valentine’s Stay. Let our exclusive packages transform your stay into a symphony of romance from February 14 to 18, 2024, and immerse yourselves in luxury, romance, and unforgettable moments.',
+                // packageB: 'APHRODITE',
+                // packageA: 'VENUS',
+                // rateA: 'PHP 8,000',
+                rate: 'PHP 3,940',
+                booking: 'February 27 to March 8, 2024',
+                stay: 'March 11 to 17, 2024',
 
-                inclusionsA: [
+                inclusions: [
                     {
-                        inc_name: 'Room accomodation with romantic setup'
+                        inc_name: 'Overnight stay with breakfast'
                     },
                     {
-                        inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
-                    },
-                    {
-                        inc_name: 'Set breakfast for two (2)'
-                    },
-                    {
-                        inc_name: "Access to Victoria Sports' gym and pool facilities"
-                    },
-                    {
-                        inc_name: 'Main Gym & Play Gym Access'
-                    },
-                    {
-                        inc_name: 'Access to Victoria Sports facilities with FREE passess to private theater'
-                    },
-                    {
-                        inc_name: ' PHP 1,000 worth of consumable voucher at VSports Bar'
-                    }
-                ],
-
-                inclusionsB: [
-                    {
-                        inc_name: 'Room Accomodation with romantic setup'
-                    },
-                    {
-                        inc_name: 'Complimentary bouquet of flowers, wine and chocolates'
-                    },
-                    {
-                        inc_name: 'Set breakfast for two (2)'
+                        inc_name: 'Tour & Dine at Las Casas Quezon City'
                     },
                     {
                         inc_name: "Access to Victoria Sports' gym and pool facilities"
@@ -368,6 +398,7 @@ export const HTL_OFFERS = [
         ]
     }
 ]
+
 
 
 //FEATURED OFFERS

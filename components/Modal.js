@@ -45,7 +45,7 @@ function AdsModal() {
                 </div>
                 {/*body*/}
                 <div>
-                  <img src="/ads/vs vday promo web ad.jpg" alt="" />
+                  <img src="/ads/VS Ramadan Deals single page.jpg" alt="" />
                 </div>
                 {/* <div className="relative flex-auto">
                   <Carousel
