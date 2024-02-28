@@ -373,9 +373,9 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                // label: "HOTEL OFFERS",
+                label: "Exclusive Ramadan Offer",
                 title: "RAMADAN STAYCATION",
-                //desc: 'Unlock the magic of love with VS Hotel’s enchanting Valentine’s Stay. Let our exclusive packages transform your stay into a symphony of romance from February 14 to 18, 2024, and immerse yourselves in luxury, romance, and unforgettable moments.',
+                desc: 'Celebrate unity, love, tradition, and cultural richness in this season. Enjoy a peaceful overnight stay at VS Hotel complemented by a captivating Tour and Dine experience for two (2) at Las Casas Quezon City.⁣',
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
