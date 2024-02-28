@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import {Open_Sans, Playfair_Display} from 'next/font/google'
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -109,6 +110,7 @@ export default function RootLayout({ children }) {
         </script>
 
         <Analytics />
+        <SpeedInsights />
 
       </body>
 
