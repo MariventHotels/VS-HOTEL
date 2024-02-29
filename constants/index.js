@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { href: '/stay', key: 'stay', label: 'STAY' },
     { href: '/dining', key: 'dining', label: 'DINING' },
     { href: '/conventioncenter', key: 'conventioncenter', label: 'CONVENTION CENTER' },
-    { href: '/bistro', key: 'sportsbar', label: 'BISTRO' },
+    //{ href: '/bistro', key: 'sportsbar', label: 'BISTRO' },
     { href: 'https://victoriasportsclub.com/', key: 'vsclub', label: 'VS CLUB' },
     { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
 ]
