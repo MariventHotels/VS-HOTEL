@@ -11,6 +11,7 @@ import { MdEmail } from "react-icons/md";
 import { TbWorldWww } from "react-icons/tb";
 import { FaBook } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
+import { FaInstagramSquare } from "react-icons/fa";
 
 //plugins
 // import lgThumbnail from 'lightgallery/plugins/thumbnail';
@@ -51,7 +52,7 @@ function Bar() {
                     <h1 className='sm:text-3xl text-xl font-playfair text-green'>SNEAK PEEK</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo ullam impedit distinctio. Iusto esse maxime libero eveniet fugiat cumque ipsam soluta! Corporis ducimus doloremque sit a harum aliquam dolore rem quis temporibus, voluptates nemo libero obcaecati cum in blanditiis? Enim vel officia recusandae voluptas!</p>
+                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Last weekend at the Victoria Sports Bar, guests had a fantastic weekend full of fun, excitement, and entertainment that they will never forget. They enjoyed some lively music and DJ sets while relishing a delicious menu and cocktails and danced the night away with endless energy and enthusiasm. It was an absolute blast for everyone who came, and we're glad to have been a part of it!</p>
 
                 <BistroCarousel />
             </div>
@@ -63,7 +64,8 @@ function Bar() {
                     <h1 className='sm:text-3xl text-xl font-playfair text-white'>CENTER STAGE</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo ullam impedit distinctio. Iusto esse maxime libero eveniet fugiat cumque ipsam soluta! Corporis ducimus doloremque sit a harum aliquam dolore rem quis temporibus, voluptates nemo libero obcaecati cum in blanditiis? Enim vel officia recusandae voluptas!</p>
+                <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.
+                </p>
 
                 <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5'>
                     <div className='prf'>
@@ -127,7 +129,7 @@ function Bar() {
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>HIGHLIGHTS</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 font-opensans lg:w-3/4 mx-auto text-sm '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo ullam impedit distinctio. Iusto esse maxime libero eveniet fugiat cumque ipsam soluta! Corporis ducimus doloremque sit a harum aliquam dolore rem quis temporibus, voluptates nemo libero obcaecati cum in blanditiis? Enim vel officia recusandae voluptas!</p>
+                <p className='pt-3 pb-3 font-opensans lg:w-3/4 mx-auto text-sm '>Experience a weekend filled with entertainment, great food, and drinks at the Victoria Sports Bar. Take advantage of the opportunity to create unforgettable memories and enjoy a fantastic time.</p>
 
                     <div className='mt-5'>
                         <LightGallery
@@ -173,10 +175,11 @@ function Bar() {
                     <div>
                         <h1 className='text-2xl text-green font-bold mb-4 text-center'>For inquiries and reservations</h1>
                         <ul>
-                            <li className='flex justify-center mb-2'><IoCall className='text-green' /><p className='text-sm pl-1'>+63 927 559 7631 or + 63 927 559 7630</p></li>
                             <li className='flex justify-center mb-2'><MdEmail className='text-green' /><p className='text-sm pl-1'>victoriasportsbar@vshotel.com.ph</p></li>
+                            <li className='flex justify-center mb-2'><IoCall className='text-green' /><p className='text-sm pl-1'>+63 954 159 2310</p></li>
                             <li className='flex justify-center mb-2'><TbWorldWww className='text-green' /><p className='text-sm pl-1'>www.vshotel.com.ph</p></li>
-                            <li className='flex justify-center '><BsFacebook className='text-green' /><p className='text-sm pl-1'><a href="https://www.facebook.com/profile.php?id=61555962214287">Victoria Sports Bar</a></p></li>
+                            <li className='flex justify-center mb-2'><BsFacebook className='text-green' /><p className='text-sm pl-1'><a href="https://www.facebook.com/profile.php?id=61555962214287">Victoria Sports Bar</a></p></li>
+                            <li className='flex justify-center '><FaInstagramSquare className='text-green' /><p className='text-sm pl-1'><a href="https://www.instagram.com/victoriasportsbar/?next=%2F">@victoriasportsbar</a></p></li>
                         </ul>
 
                         <h1 className='text-2xl text-green font-bold mb-4 mt-5 text-center'>VS Bar Menu</h1>

@@ -463,30 +463,30 @@ export const BISTRO_OFFERS = [
                 ]
             },
 
-            {
-                image: '/bistro/offers/offr.JPG',
-                title: 'Offer Title',
-                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
-                rate: 'P6,600',
-                stay: 'Jan 1, 2024',
-                inclusions: [
-                    {
-                        inc_name: 'Room Accommodation'
-                    },
-                    {
-                        inc_name: 'Set Breakfast'
-                    },
-                    {
-                        inc_name: 'Access to Swimming Pool & Water Spa'
-                    },
-                    {
-                        inc_name: 'Main Gym & Play Gym Access'
-                    },
-                    {
-                        inc_name: 'Passes to the Black & White Masquerade Party'
-                    }
-                ]
-            }
+            // {
+            //     image: '/bistro/offers/offr.JPG',
+            //     title: 'Offer Title',
+            //     desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
+            //     rate: 'P6,600',
+            //     stay: 'Jan 1, 2024',
+            //     inclusions: [
+            //         {
+            //             inc_name: 'Room Accommodation'
+            //         },
+            //         {
+            //             inc_name: 'Set Breakfast'
+            //         },
+            //         {
+            //             inc_name: 'Access to Swimming Pool & Water Spa'
+            //         },
+            //         {
+            //             inc_name: 'Main Gym & Play Gym Access'
+            //         },
+            //         {
+            //             inc_name: 'Passes to the Black & White Masquerade Party'
+            //         }
+            //     ]
+            // }
         ]
     }
 ]
