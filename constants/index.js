@@ -494,7 +494,13 @@ export const BISTRO_OFFERS = [
 //BISTRO GALLERY
 export const BISTRO_GALLERY = [
     {
-        galleryImg: '/bistro/gallery/h1.JPG'
+        galleryImg: '/bistro/gallery/h1.jpg'
+    },
+    {
+        galleryImg: '/bistro/gallery/h6.JPG'
+    },
+    {
+        galleryImg: '/bistro/gallery/h9.JPG'
     },
     {
         galleryImg: '/bistro/gallery/h2.JPG'
@@ -509,15 +515,9 @@ export const BISTRO_GALLERY = [
         galleryImg: '/bistro/gallery/h5.JPG'
     },
     {
-        galleryImg: '/bistro/gallery/h6.JPG'
-    },
-    {
         galleryImg: '/bistro/gallery/h7.JPG'
     },
     {
         galleryImg: '/bistro/gallery/h8.JPG'
-    },
-    {
-        galleryImg: '/bistro/gallery/h9.JPG'
-    },
+    }
 ]
