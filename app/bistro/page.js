@@ -67,10 +67,7 @@ function Bar() {
                 <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.
                 </p>
 
-                <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5'>
-                    <div className='prf'>
-                        <img src="/bistro/performers/p-1.jpg" alt="perf" />
-                    </div>
+                <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 mt-5'>
                     <div className='prf'>
                         <img src="/bistro/performers/p-2.jpg" alt="perf" />
                     </div>
@@ -81,7 +78,7 @@ function Bar() {
             </div>
 
             {/**OFFERS*/}
-           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
+           {/**<div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>OFFERS</h1>
@@ -120,9 +117,9 @@ function Bar() {
                         </>
                     ))}
                 </div>
-            </div>
-
-            {/**GALLERY*/}
+            </div> */}
+            
+            {/**HIGHLIGHTS*/}
            <div className="container-fluid text-center mx-auto sm:mt-10 p-5 sm:p-16 bg-white">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
