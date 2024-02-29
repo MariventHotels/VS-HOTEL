@@ -58,7 +58,7 @@ function Bar() {
             </div>
 
             {/**CENTER STAGE*/}
-           <div className="container-fluid text-center mx-auto my-10 sm:p-16 py-10 px-2 bg-green">
+           <div className="container-fluid text-center mx-auto sm:p-16 py-10 px-2 bg-green">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-white'>CENTER STAGE</h1>
@@ -119,7 +119,7 @@ function Bar() {
             </div> */}
 
             {/**HIGHLIGHTS*/}
-           <div className="container-fluid text-center mx-auto sm:mt-10 p-5 sm:p-16 bg-white">
+           <div className="container-fluid text-center mx-auto sm:m-0 p-5 sm:p-16 bg-white">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>HIGHLIGHTS</h1>
@@ -141,7 +141,7 @@ function Bar() {
                             {BISTRO_GALLERY.map((items, index) => (
                                 <a href={items.galleryImg} className='relative w-full' >
                                 <div className='' >
-                                    <img src={items.galleryImg} className='w-full' alt="offer" />
+                                    <img src={items.galleryImg} className='w-full' alt="" />
                                 </div>
                                 </a>
                             ))}
