@@ -494,7 +494,7 @@ export const BISTRO_OFFERS = [
 //BISTRO GALLERY
 export const BISTRO_GALLERY = [
     {
-        galleryImg: '/bistro/gallery/h1.jpg'
+        galleryImg: '/bistro/gallery/h01.jpg'
     },
     {
         galleryImg: '/bistro/gallery/h6.JPG'

@@ -64,15 +64,14 @@ function Bar() {
                     <h1 className='sm:text-3xl text-xl font-playfair text-white'>CENTER STAGE</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.
-                </p>
+                <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.</p>
 
                 <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 mt-5'>
                     <div className='prf'>
-                        <img src="/bistro/performers/p-2.jpg" alt="perf" />
+                        <img src="/bistro/performers/p-2.jpg" alt="performers" />
                     </div>
                     <div className='prf'>
-                        <img src="/bistro/performers/p-3.jpg" alt="perf" />
+                        <img src="/bistro/performers/p-3.jpg" alt="performers" />
                     </div>
                 </div>
             </div>
