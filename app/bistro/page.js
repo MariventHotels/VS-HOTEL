@@ -117,7 +117,7 @@ function Bar() {
                     ))}
                 </div>
             </div> */}
-            
+
             {/**HIGHLIGHTS*/}
            <div className="container-fluid text-center mx-auto sm:mt-10 p-5 sm:p-16 bg-white">
                 <div className="grid grid-cols-3">
