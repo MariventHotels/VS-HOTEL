@@ -439,27 +439,28 @@ export const BISTRO_OFFERS = [
     {
         Offers: [
             {
-                image: '/bistro/offers/offr.JPG',
-                title: 'Offer Title',
-                desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nisi rerum adipisci deleniti iste veniam, nam provident modi mollitia quidem repellendus asperiores minima cum dolorem?',
-                rate: 'P6,600',
-                stay: 'Jan 1, 2024',
+                image: '/bistro/offers/womens-month.png',
+                title: "Celebrate Women's Month in Style!",
+                desc: "Join us at Victoria Sports Bar this Friday, March 8, 2024, for an unforgettable evening of indulgence and empowerment. Experience exclusive offers designed especially for you while grooving to the tunes of our live bands. Let's raise our glasses to the strength, resilience, and beauty of women everywhere.⁣",
+                desc_b: "Don't miss out on this opportunity to celebrate the power of women!",
+                // rate: 'P6,600',
+                // stay: 'Jan 1, 2024',
                 inclusions: [
                     {
-                        inc_name: 'Room Accommodation'
+                        inc_name: 'Play billiards for 1 hour, get the next hour FREE'
                     },
                     {
-                        inc_name: 'Set Breakfast'
+                        inc_name: 'Buy 1 cocktail, get 1 FREE'
                     },
-                    {
-                        inc_name: 'Access to Swimming Pool & Water Spa'
-                    },
-                    {
-                        inc_name: 'Main Gym & Play Gym Access'
-                    },
-                    {
-                        inc_name: 'Passes to the Black & White Masquerade Party'
-                    }
+                    // {
+                    //     inc_name: 'Access to Swimming Pool & Water Spa'
+                    // },
+                    // {
+                    //     inc_name: 'Main Gym & Play Gym Access'
+                    // },
+                    // {
+                    //     inc_name: 'Passes to the Black & White Masquerade Party'
+                    // }
                 ]
             },
 

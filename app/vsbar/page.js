@@ -12,6 +12,7 @@ import { TbWorldWww } from "react-icons/tb";
 import { FaBook } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa6";
 
 //plugins
 // import lgThumbnail from 'lightgallery/plugins/thumbnail';
@@ -30,9 +31,8 @@ function Bar() {
            <div className='relative h-full mt-14 sm:mt-0'>
                 <div className="container-fluid">
                     <div>
-                        <img src="/bistro/bistro-c.jpg" className='' alt="bar cover" />
+                        <img src="/bistro/bistro-c.jpg" className='2' alt="bar cover" />
                     </div>
-
                     {/**TAGLINE */}
                     <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-1/2 bottom-10 text-center text-white">
                         <div className='mb-1 sm:mb-5 mt-5'>
@@ -77,7 +77,7 @@ function Bar() {
             </div>
 
             {/**OFFERS*/}
-           {/**<div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
+           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>OFFERS</h1>
@@ -98,13 +98,14 @@ function Bar() {
                                         <div className="sm:text-left">
                                             <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{indexb.title}</h1>
                                             <p className='mb-3 text-sm'>{indexb.desc}</p>
-                                            <p className='mb-3 text-sm'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p>
-                                            <p>Inclusions: </p>
+                                            <p className='mb-3 text-sm'>{indexb.desc_b}</p>
+                                            {/**<p className='mb-3 text-sm'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p> */}
+                                            {/**<p>Inclusions: </p> */}
 
                                             {indexb.inclusions.map((indexc) => (
                                                 <>
                                                     <ul className='text-dark'>
-                                                        <li className='text-sm my-1'>{indexc.inc_name}</li>
+                                                        <li className='text-sm my-1 flex'><FaCheck className='text-green text-lg mr-1' />{indexc.inc_name}</li>
                                                     </ul>
                                                 </>
                                             ))}
@@ -116,7 +117,7 @@ function Bar() {
                         </>
                     ))}
                 </div>
-            </div> */}
+            </div>
 
             {/**HIGHLIGHTS*/}
            <div className="container-fluid text-center mx-auto sm:m-0 p-5 sm:p-16 bg-white">
