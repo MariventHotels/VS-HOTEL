@@ -104,8 +104,8 @@ export default function RootLayout({ children }) {
         <script src="js/plugins/lg-thumbnail.umd.js"></script>
         <script src="js/plugins/lg-zoom.umd.js"></script>
 
-        <script
-          src="https://cdn2.woxo.tech/a.js#6598af4e435a9a2183f6eb2c"
+        <script 
+          src="https://cdn2.woxo.tech/a.js#6598af4e435a9a2183f6eb2c" 
           async data-usrc>
         </script>
 
