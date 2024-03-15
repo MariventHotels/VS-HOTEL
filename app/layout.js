@@ -48,6 +48,7 @@ export default function RootLayout({ children }) {
       <meta property="og:video:type" content="video/mp4" />
       <meta property="og:video:width" content="500" />
       <meta property="og:video:height" content="500" />
+      <meta property="og:image" content="" />
 
     </head>
 
