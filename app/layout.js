@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
 
       <meta property="og:title" content="THIS A SHIT" />
       <meta property="og:description" content="Your Description" />
-      <meta property="og:image" content="../public/icons/VSH-GIF.gif" />
+      <meta property="og:image" content="/icons/VSH-GIF.gif" />
 
     </head>
 
