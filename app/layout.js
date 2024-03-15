@@ -44,11 +44,11 @@ export default function RootLayout({ children }) {
 
       <meta property="og:title" content="THIS IS A SHIT" />
       <meta property="og:description" content="Your Description" />
-      <meta property="og:video:url" content="https://storage.googleapis.com/urmom/nSRzP8fihY.mp4" />
+      <meta property="og:video:url" content="https://www.vshotel.com.ph/icons/asdc.mp4" />
       <meta property="og:video:type" content="video/mp4" />
       <meta property="og:video:width" content="500" />
       <meta property="og:video:height" content="500" />
-      <meta property="og:image" content="" />
+      <meta property="og:image" content="https://www.vshotel.com.ph/cafe/VS%20Hotel%20Food%20web.jpg" />
 
     </head>
 
