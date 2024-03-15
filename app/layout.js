@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
       <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
       <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 
-      <meta property="og:title" content="THIS A SHIT" />
+      <meta property="og:title" content="THIS IS A SHIT" />
       <meta property="og:description" content="Your Description" />
       <meta property="og:image" content="/icons/VSH-GIF.gif" />
 
