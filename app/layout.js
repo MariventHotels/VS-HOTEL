@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
       <meta property="og:title" content="THIS IS A SHIT" />
       <meta property="og:description" content="Your Description" />
       <meta property="og:video" content="https://www.vshotel.com.ph/icons/asdc.mp4" />
-      {/**<meta property="og:image" content="https://www.vshotel.com.ph/icons/asdc.mp4" /> */}
+      <meta property="og:image" content="" />
 
     </head>
 
