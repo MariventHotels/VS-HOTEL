@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const hdn = () => {
   return (
     <>
-    <img src="/icons/VSH-GIF.gif" alt="THIS IS A GIF" className='' />
+        <img src="/icons/VSH-GIF.gif" alt="THIS IS A GIF" className='' />
     </>
   )
 }
 
-export default page
+export default hdn
