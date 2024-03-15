@@ -42,6 +42,10 @@ export default function RootLayout({ children }) {
       <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
       <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 
+      <meta property="og:title" content="Your Title" />
+      <meta property="og:description" content="Your Description" />
+      <meta property="og:image" content="https://www.vshotel.com.ph/skin/1.jpg" />
+
     </head>
 
       <body className='bg-gray'>
