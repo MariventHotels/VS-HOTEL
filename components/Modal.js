@@ -13,7 +13,7 @@ function AdsModal() {
     const openModalWithDelay = () => {
       setTimeout(() => {
         setShowModal(true);
-      }, 3000); // Adjust the delay as needed
+      }, 1000); // Adjust the delay as needed
     };
 
     // Call the function to open the modal after component mounting
@@ -44,15 +44,17 @@ function AdsModal() {
                     </button>
                 </div>
                 {/*body*/}
-                <div>
-                  <img src="/ads/VS Ramadan Deals single page.jpg" alt="" />
-                </div>
-                {/* <div className="relative flex-auto">
+                {/**
+                  <div>
+                    <img src="/ads/VS Ramadan Deals single page.jpg" alt="" />
+                  </div>
+                */}
+                <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
-                    showArrows={true}
-                    interval={5000}
+                    showArrows={false}
+                    interval={4000}
                     stopOnHover={false}
                     infiniteLoop={true}
                     swipeable={false}
@@ -62,15 +64,15 @@ function AdsModal() {
                     showIndicators={false}
                   >
                     <div>
-                      <img src="/ads/VS Hotel NYE 2023 socmed1.jpg" alt="" />
+                      <img src="/ads/VS Womens Month-ad.jpg" alt="" />
                     </div>
 
                     <div>
-                      <img src="/ads/VS Hotel NYE 2023 socmed2.jpg" alt="" />
+                      <img src="/ads/Easter-ad.jpg" alt="" />
                     </div>
                   </Carousel>
 
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

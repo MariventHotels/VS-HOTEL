@@ -373,25 +373,92 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "Exclusive Ramadan Offer",
-                title: "RAMADAN STAYCATION",
-                desc: 'Celebrate unity, love, tradition, and cultural richness in this season. Enjoy a peaceful overnight stay at VS Hotel complemented by a captivating Tour and Dine experience for two (2) at Las Casas Quezon City.⁣',
+                label: "Easter Offer",
+                title: "EGG-CITING FUN HUNT",
+                desc: "Get ready for an EGG-citing Easter Sunday hunt at VS Hotel Convention Center! Bring your loved ones and join us for a day filled with fun activities, surprises, and delicious treats. ⁣Don't miss out on this family-friendly event!",
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
-                rate: 'PHP 3,940',
-                booking: 'February 27 to March 8, 2024',
-                stay: 'March 11 to 17, 2024',
+                offerimg: '/offers/Easter offer.jpg',
+                rate: 'PHP 3,499',
+                booking: 'March 15 to March 29, 2024',
+                stay: 'March 30 to 31, 2024',
 
                 inclusions: [
                     {
                         inc_name: 'Overnight stay with breakfast'
                     },
                     {
-                        inc_name: 'Tour & Dine at Las Casas Quezon City'
+                        inc_name: "Access to Victoria Sports' gym and pool facilities"
                     },
                     {
-                        inc_name: "Access to Victoria Sports' gym and pool facilities"
+                        inc_name: "Lunch Buffet"
+                    },
+                    {
+                        inc_name: "Free Passes at the Victoria Sports Club Theater"
+                    },
+                    {
+                        inc_name: "Two(2) Passes to the 8th floor Easter Egg hunt"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+{/**extended hotel offers */}
+export const EXT_HTL_OFFERS = [
+    {
+        Offers: [
+            {
+                label: "Celebrate Women's Month",
+                title: "BELLA VICTORIA",
+                //desc: "Get ready for an EGG-citing Easter Sunday hunt at VS Hotel Convention Center! Bring your loved ones and join us for a day filled with fun activities, surprises, and delicious treats. ⁣Don't miss out on this family-friendly event!",
+                //htl_img: '/offers/offer1.jpg',
+                // packageA: 'VENUS',
+                // rateA: 'PHP 8,000',
+                offerimg: '/offers/offer1.jpg',
+                rate: 'PHP 4,940',
+                //booking: 'March 15 to March 29, 2024',
+                stay: 'March 1 to 22, 2024',
+
+                inclusions: [
+                    {
+                        inc_name: 'Overnight stay with breakfast'
+                    },
+                    {
+                        inc_name: "Massage and Bubble Bath"
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports Gym & pool facilities"
+                    }
+                ]
+            },
+
+            {
+                label: "Celebrate Women's Month",
+                title: "WEEKEND NIGHT OUT",
+                //desc: "Get ready for an EGG-citing Easter Sunday hunt at VS Hotel Convention Center! Bring your loved ones and join us for a day filled with fun activities, surprises, and delicious treats. ⁣Don't miss out on this family-friendly event!",
+                //htl_img: '/offers/offer1.jpg',
+                // packageA: 'VENUS',
+                // rateA: 'PHP 8,000',
+                offerimg: '/offers/offer2.jpg',
+                rate: 'PHP 5,760',
+                //booking: 'March 15 to March 29, 2024',
+                stay: 'All Fridays & Saturdays of March (Except Holy Week)',
+
+                inclusions: [
+                    {
+                        inc_name: 'Overnight stay with breakfast'
+                    },
+                    {
+                        inc_name: "Massage"
+                    },
+                    {
+                        inc_name: "PHP 1,000 worth of consumable voucher at VSports Bar"
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports Gym & pool facilties"
                     }
                 ]
             }
@@ -433,6 +500,7 @@ export const FEATURED_OFFERS = [
         ]
     }
 ]
+
 
 //BISTRO OFFERS
 export const BISTRO_OFFERS = [
