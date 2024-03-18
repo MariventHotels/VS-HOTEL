@@ -42,14 +42,10 @@ export default function RootLayout({ children }) {
       <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
       <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 
-      <meta property="og:title" content="THIS IS A SHIT" />
-      <meta property="og:description" content="Your Description" />
-      <meta property="og:video:url" content="https://www.vshotel.com.ph/icons/asdc.mp4" />
-      <meta property="url" content="https://www.vshotel.com.ph/icons/asdc.mp4" />
-      <meta property="og:type" content="video/mp4" />
-      <meta property="og:video:width" content="500" />
-      <meta property="og:video:height" content="500" />
-      <meta property="og:image" content="https://www.vshotel.com.ph/cafe/VS%20Hotel%20Food%20web.jpg" />
+      <meta property="og:title" content="VS HOTEL OFFER TITLE" />
+      <meta property="og:description" content="Your offer description" />
+      <meta property="og:image" content="https://www.vshotel.com.ph/offers/ramadan.jpg" />
+      <meta property="og:url" content='https://www.vshotel.com.ph/specialoffers' />
 
     </head>
 
