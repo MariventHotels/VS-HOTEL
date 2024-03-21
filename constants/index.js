@@ -380,7 +380,7 @@ export const HTL_OFFERS = [
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
                 offerimg: '/offers/Easter offer.jpg',
-                rate: 'PHP 3,499',
+                rate: 'PHP 5,499',
                 booking: 'March 15 to March 29, 2024',
                 stay: 'March 30 to 31, 2024',
 
