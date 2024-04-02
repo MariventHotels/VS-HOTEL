@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
 
       <meta property="og:title" content="4.4 Deals" />
       <meta property="og:description" content=" Get ready to unlock incredible savings!" />
-      <meta property="og:image" content="https://www.vshotel.com.ph/offers/ramadan.jpg" />
+      <meta property="og:image" content="https://www.vshotel.com.ph/offers/4.4%20Teaser.jpeg" />
       <meta property="og:url" content='https://www.vshotel.com.ph/specialoffers' />
 
     </head>
