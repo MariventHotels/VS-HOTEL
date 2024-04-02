@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoMdCheckmark } from "react-icons/io";
-import { EXT_HTL_OFFERS, HTL_OFFERS } from '@/constants';
+import { HTL_OFFERS } from '@/constants';
 
 function SpecialOffers() {
   return (
@@ -30,7 +30,7 @@ function SpecialOffers() {
                                     </p>
 
                                     <div className='text-dark text-sm mt-5'>
-                                        <p>Rate starts at <b>{index.rate}</b> nett for two (2) persons</p>
+                                        <p>Rate starts at <b>{index.rate}</b> for two (2) persons</p>
                                         <p className='my-2'>Booking Period: {index.booking}</p>
                                         <p>Stay Period: {index.stay}</p>
                                     </div>
@@ -54,7 +54,7 @@ function SpecialOffers() {
                 ))}</div>
             ))}
 
-            {/**WOMEN'S MONTH */}
+            {/**WOMEN'S MONTH 
             <div className="container text-center mx-auto mt-14">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
@@ -66,9 +66,10 @@ function SpecialOffers() {
                     with relaxation, rejuvenation, and celebration.⁣
                 </p>
                 <p className='my-2 text-dark font-opensans lg:w-3/4 mx-auto text-sm'><b>Booking Period:</b> Feb 28 to March 22, 2024</p>
-            </div>
+            </div> 
+        */}
 
-            {EXT_HTL_OFFERS.map((index) => (
+            {/** {EXT_HTL_OFFERS.map((index) => (
                 <div>{index.Offers.map((index) => (
                     <>
                         <div className="container-fluid sm:container mt-10 mx-auto h-auto bg-white sm:rounded-r-sm rounded-b-sm">
@@ -80,7 +81,7 @@ function SpecialOffers() {
 
                                     <div className='text-dark text-sm mt-3'>
                                         <p>Rate starts at <b>{index.rate}</b> nett for two (2) persons</p>
-                                        {/**<p className='my-2'>Booking Period: {index.booking}</p> */}
+                                        {/**<p className='my-2'>Booking Period: {index.booking}</p> 
                                         <p className='my-2'>Stay Period: {index.stay}</p>
                                     </div>
 
@@ -101,7 +102,7 @@ function SpecialOffers() {
                         </div>
                     </>
                 ))}</div>
-            ))}
+            ))} */}
 
 
 

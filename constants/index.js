@@ -373,32 +373,26 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "Easter Offer",
-                title: "EGG-CITING FUN HUNT",
-                desc: "Get ready for an EGG-citing Easter Sunday hunt at VS Hotel Convention Center! Bring your loved ones and join us for a day filled with fun activities, surprises, and delicious treats. ⁣Don't miss out on this family-friendly event!",
+                label: "Summer Offer",
+                title: "URBAN SUMMER ESCAPE",
+                desc: "Escape the hustle and bustle of the city and indulge in a unique urban summer getaway! ⁣⁣⁣Experience the excitement of the city's heart, then retreat to the tranquility of heritage and relaxation. ⁣⁣",
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
-                offerimg: '/offers/Easter offer.jpg',
-                rate: 'PHP 5,499',
-                booking: 'March 15 to March 29, 2024',
-                stay: 'March 30 to 31, 2024',
+                offerimg: '/offers/Summer.jpg',
+                rate: 'PHP 3,940',
+                booking: 'April 1 to 8, 2024',
+                stay: 'April 8 to 14, 2024',
 
                 inclusions: [
                     {
                         inc_name: 'Overnight stay with breakfast'
                     },
                     {
+                        inc_name: "Tour & Dine at Las Casas QuezonCity"
+                    },
+                    {
                         inc_name: "Access to Victoria Sports' gym and pool facilities"
-                    },
-                    {
-                        inc_name: "Lunch Buffet"
-                    },
-                    {
-                        inc_name: "Free Passes at the Victoria Sports Club Theater"
-                    },
-                    {
-                        inc_name: "Two(2) Passes to the 8th floor Easter Egg hunt"
                     }
                 ]
             }
@@ -407,6 +401,7 @@ export const HTL_OFFERS = [
 ]
 
 {/**extended hotel offers */}
+{/**
 export const EXT_HTL_OFFERS = [
     {
         Offers: [
@@ -465,6 +460,7 @@ export const EXT_HTL_OFFERS = [
         ]
     }
 ]
+*/}
 
 
 

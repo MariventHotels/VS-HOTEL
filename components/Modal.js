@@ -44,12 +44,13 @@ function AdsModal() {
                     </button>
                 </div>
                 {/*body*/}
-                {/**
+
                   <div>
-                    <img src="/ads/VS Ramadan Deals single page.jpg" alt="" />
+                    <img src="/ads/Urban Summer Escape Ad.jpeg" alt="" />
                   </div>
-                */}
-                <div className="relative flex-auto">
+
+              {/**
+               <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -73,6 +74,7 @@ function AdsModal() {
                   </Carousel>
 
                 </div>
+               */}
               </div>
             </div>
           </div>

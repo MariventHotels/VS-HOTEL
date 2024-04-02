@@ -66,15 +66,30 @@ function Bar() {
                 </div>
                 <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.</p>
 
-                <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 mt-5'>
+                {/**
+                       <div className='grid sm:grid-cols-1 grid-cols-1 gap-4 mt-5 mx-auto'>
                     <div className='prf'>
                         <img src="/bistro/performers/p-2.jpg" alt="performers" />
                     </div>
+                    
                     <div className='prf'>
                         <img src="/bistro/performers/p-3.jpg" alt="performers" />
                     </div>
                 </div>
-            </div>
+            */}
+
+                <div className='grid sm:grid-cols-1 grid-cols-1 gap-4 mt-5 mx-auto'>
+                    <div className='prf'>
+                        <img src="/bistro/performers/p-2.jpg" alt="performers" />
+                    </div>
+
+                    <div className='prf'>
+                        <img src="/bistro/performers/p-3.jpg" alt="performers" />
+                    </div>
+                </div>
+
+
+                </div>
 
             {/**OFFERS*/}
            <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
@@ -138,7 +153,6 @@ function Bar() {
                             zoom={false}
                             counter={false}
                         >
-
                             {BISTRO_GALLERY.map((items, index) => (
                                 <a href={items.galleryImg} className='relative w-full' >
                                 <div className='' >
@@ -146,7 +160,6 @@ function Bar() {
                                 </div>
                                 </a>
                             ))}
-
                         </LightGallery>
                     </div>
             </div>
