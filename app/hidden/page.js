@@ -3,7 +3,7 @@ import React from 'react'
 const hdn = () => {
   return (
     <>
-        <video src="/icons/asdc.mp4" autoPlay loop></video>
+        <img src="/offers/4.4 Teaser.jpeg" alt="" />
     </>
   )
 }
