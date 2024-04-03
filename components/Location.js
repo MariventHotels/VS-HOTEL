@@ -13,8 +13,8 @@ function Location() {
             </div>
 
             <div className="container-fluid sm:container mt-5 mx-auto">
-                <div className="mx-auto">
-                    <iframe className='mx-auto h-[300px] sm:h-[500px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3495039666786!2d121.03996507586722!3d14.636091176205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b644522d3db1%3A0xc3d8ebc67a3c5044!2sVictoria%20Sports%20Tower!5e0!3m2!1sen!2sph!4v1712105764139!5m2!1sen!2sph" width="1200" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div className="mx-auto bg-green">
+                    <iframe className='mx-auto h-[300px] sm:h-[500px] w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3495039666786!2d121.03996507586722!3d14.636091176205204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b644522d3db1%3A0xc3d8ebc67a3c5044!2sVictoria%20Sports%20Tower!5e0!3m2!1sen!2sph!4v1712105764139!5m2!1sen!2sph" width="1200" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 <div className='mt-5 text-center sm:w-[1200px] mx-auto'>
