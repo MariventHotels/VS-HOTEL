@@ -48,7 +48,6 @@ export default function RootLayout({ children }) {
       <meta property="og:url" content='https://www.vshotel.com.ph/' />
 
     </head>
-
       <body className='bg-gray'>
         <Navbar />
           <main className='relative overflow-hidden font-opensans' >

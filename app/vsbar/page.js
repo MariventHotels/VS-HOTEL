@@ -78,13 +78,15 @@ function Bar() {
                 </div>
             */}
 
-                <div className='grid sm:grid-cols-1 grid-cols-1 gap-4 mt-5 mx-auto'>
+                <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5 mx-auto'>
                     <div className='prf'>
-                        <img src="/bistro/performers/p-2.jpg" alt="performers" />
+                        
                     </div>
-
                     <div className='prf'>
-                        <img src="/bistro/performers/p-3.jpg" alt="performers" />
+                        <img src="/bistro/performers/p-4.png" alt="performers" />
+                    </div>
+                    <div className='prf'>
+                        
                     </div>
                 </div>
 
@@ -92,7 +94,8 @@ function Bar() {
                 </div>
 
             {/**OFFERS*/}
-           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
+            {/**
+                           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>OFFERS</h1>
@@ -114,8 +117,8 @@ function Bar() {
                                             <h1 className='font-playfair text-green sm:text-2xl text-2xl pt-3 pb-3'>{indexb.title}</h1>
                                             <p className='mb-3 text-sm'>{indexb.desc}</p>
                                             <p className='mb-3 text-sm'>{indexb.desc_b}</p>
-                                            {/**<p className='mb-3 text-sm'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p> */}
-                                            {/**<p>Inclusions: </p> */}
+                                            <p className='mb-3 text-sm'>Rate starts at <b className='text-green'>{indexb.rate}</b> nett for two (2) persons</p>
+                                            <p>Inclusions: </p>
 
                                             {indexb.inclusions.map((indexc) => (
                                                 <>
@@ -133,6 +136,7 @@ function Bar() {
                     ))}
                 </div>
             </div>
+            */}
 
             {/**HIGHLIGHTS*/}
            <div className="container-fluid text-center mx-auto sm:m-0 p-5 sm:p-16 bg-white">
