@@ -71,7 +71,7 @@ function Bar() {
                     <div className='prf'>
                         <img src="/bistro/performers/p-2.jpg" alt="performers" />
                     </div>
-                    
+
                     <div className='prf'>
                         <img src="/bistro/performers/p-3.jpg" alt="performers" />
                     </div>
@@ -80,13 +80,11 @@ function Bar() {
 
                 <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5 mx-auto'>
                     <div className='prf'>
-                        
                     </div>
                     <div className='prf'>
                         <img src="/bistro/performers/p-4.png" alt="performers" />
                     </div>
                     <div className='prf'>
-                        
                     </div>
                 </div>
 
