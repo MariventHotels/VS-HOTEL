@@ -373,7 +373,7 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "Your ultimate April escape awaits!",
+                label: "YOUR ULTIMATE APRIL ESCAPE AWAITS!",
                 title: "4.4 DEALS",
                 desc: "April just got brighter with our 4.4 deals at VS Hotel Convention Center! Enjoy up to 44% off your booking or opt for our extended stay options - whether it's our 3+1-night offer or our friends getaway 3+1 rooms.⁣⁣⁣",
                 // packageB: 'APHRODITE',
