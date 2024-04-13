@@ -25,15 +25,16 @@ function AdsModal() {
 
   return (
     <>
+    {/** 
      {showModal && (
         <>
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-blur-sm"
           >
             <div className="relative w-auto mx-auto xl:max-w-xl max-w-lg">
-              {/*content*/}
+          
               <div className="border-0 rounded-lg relative flex flex-col w-full my-10 outline-none focus:outline-none px-2 sm:px-0">
-                {/*header*/}
+              
                 <div className="relative top-10 z-50 px-2 text-right ">
                     <button
                       className="text-white"
@@ -43,11 +44,12 @@ function AdsModal() {
                       <IoCloseSharp className='text-3xl' />
                     </button>
                 </div>
-                {/*body*/}
 
                   <div>
                     <img src="/ads/Urban Summer Escape Ad.jpeg" alt="" />
                   </div>
+
+                  */}
 
               {/**
                <div className="relative flex-auto">
@@ -75,14 +77,15 @@ function AdsModal() {
 
                 </div>
                */}
+               {/**
               </div>
             </div>
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       )}
+      */}
     </>
   );
 };
-
 export default AdsModal;

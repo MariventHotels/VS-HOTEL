@@ -373,26 +373,32 @@ export const HTL_OFFERS = [
     {
         Offers: [
             {
-                label: "Summer Offer",
-                title: "URBAN SUMMER ESCAPE",
-                desc: "Escape the hustle and bustle of the city and indulge in a unique urban summer getaway! ⁣⁣⁣Experience the excitement of the city's heart, then retreat to the tranquility of heritage and relaxation. ⁣⁣",
+                label: "Your ultimate April escape awaits!",
+                title: "4.4 DEALS",
+                desc: "April just got brighter with our 4.4 deals at VS Hotel Convention Center! Enjoy up to 44% off your booking or opt for our extended stay options - whether it's our 3+1-night offer or our friends getaway 3+1 rooms.⁣⁣⁣",
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
-                offerimg: '/offers/Summer.jpg',
-                rate: 'PHP 3,940',
-                booking: 'April 1 to 8, 2024',
-                stay: 'April 8 to 14, 2024',
+                offerimg: '/offers/april4_offer.mp4',
+                // rate: 'PHP 3,940',
+                // booking: 'April 1 to 8, 2024',
+                stay: 'All Mondays - Thursdays of April except Weekends',
 
                 inclusions: [
                     {
-                        inc_name: 'Overnight stay with breakfast'
+                        inc_name: 'Free Parking (1 slot)'
                     },
                     {
-                        inc_name: "Tour & Dine at Las Casas QuezonCity"
+                        inc_name: "Fee WIFI Access"
                     },
                     {
-                        inc_name: "Access to Victoria Sports' gym and pool facilities"
+                        inc_name: "Water Spa and Lap Pool"
+                    },
+                    {
+                        inc_name: "Kiddie Play Area"
+                    },
+                    {
+                        inc_name: "Fitness Gym"
                     }
                 ]
             }
@@ -584,5 +590,36 @@ export const BISTRO_GALLERY = [
     },
     {
         galleryImg: '/bistro/gallery/h8.JPG'
+    }
+]
+
+//REVIEWS CONTENT
+export const REVIEW_CONTENT = [
+    {
+        review_title: "Great quick stay!",
+        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
+        review_name: "CELINE",
+        review_date: "Reviewed January 17, 2024"
+    },
+
+    {
+        review_title: "Great quick stay!",
+        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
+        review_name: "CELINE",
+        review_date: "Reviewed January 17, 2024"
+    },
+
+    {
+        review_title: "Great quick stay!",
+        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
+        review_name: "CELINE",
+        review_date: "Reviewed January 17, 2024"
+    },
+
+    {
+        review_title: "Great quick stay!",
+        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
+        review_name: "CELINE",
+        review_date: "Reviewed January 17, 2024"
     }
 ]

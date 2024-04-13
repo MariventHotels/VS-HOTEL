@@ -6,6 +6,7 @@ import Experience from '@/components/Experience';
 import AdsModal from '@/components/Modal';
 import IgWidget from '@/components/Widget';
 import Location from '@/components/Location';
+{/**import Reviews from '@/components/Review'; */}
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Sports />
         <Experience />
         <Location />
+        {/**<Reviews/> */}
         <IgWidget />
       </>
   )
