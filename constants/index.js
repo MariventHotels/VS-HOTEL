@@ -603,23 +603,52 @@ export const REVIEW_CONTENT = [
     },
 
     {
-        review_title: "Great quick stay!",
-        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
-        review_name: "CELINE",
-        review_date: "Reviewed January 17, 2024"
+        review_title: "Unexpected, highly recommended",
+        review_body: "I was completely surprised when I've known that there was a hotel inside this sports center. The lobby was decorated beautifully and the staffs were approachable. Only thing that irked me was the Netflix fee (50php only) but ! I got to share it with other people staying in the hotel. There was a notification that this x amount of people is using the Netflix account and I cannot use it right now.",
+        review_name: "JANELLE",
+        review_date: "Reviewed March 14, 2024"
     },
 
     {
-        review_title: "Great quick stay!",
-        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
-        review_name: "CELINE",
-        review_date: "Reviewed January 17, 2024"
+        review_title: "Very Clean and Affordable",
+        review_body: "The space is very new and clean, coupled with so nice bath tub. Stay was relaxing and the hotel lobby was cozy. Staff are very nice too! The buffet Breakfast is good also, less choices but matches the price you pay.",
+        review_name: "ALDRIN",
+        review_date: "Reviewed January 27, 2024"
     },
 
     {
-        review_title: "Great quick stay!",
-        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
-        review_name: "CELINE",
-        review_date: "Reviewed January 17, 2024"
-    }
+        review_title: "Nice for a pretty new Hotel",
+        review_body: "The room was good. We enjoyed the space. Location is also great as you’re near mrt if you want to go to SM north and neat Tomas Morato. Everything seems new. Wifi is disconnecting at times but it’s fine.",
+        review_name: "THRECIA",
+        review_date: "Reviewed February 29, 2024"
+    },
+
+    {
+        review_title: "Best Hotel in the Metro",
+        review_body: "We had a very pleasant and restful stay here. The staff are super friendly and the amenities is superb! We will definitely stay here again.",
+        review_name: "HELENE",
+        review_date: "Reviewed February 11, 2024"
+    },
+
+    {
+        review_title: "Sulit for its price",
+        review_body: "Supposedly a plated breakfast but turned into buffet. We enjoyed our stay. Definitely would go back. Need some enhancement with soundproofing siguro since we can hear other guests and the construction.",
+        review_name: "VANESSA",
+        review_date: "Reviewed January 31, 2024"
+    },
+
+
 ]
+
+
+// {REVIEW_CONTENT.map((index) => (
+//                     <div className="container-fluid sm:container mt-5 mx-auto flex flex-row">
+//                         <div className='basis-1/3 bg-white p-5 shadow-2xl rounded-tl-3xl rounded-br-3xl'>
+//                             <FaQuoteLeft className='text-5xl text-[#8AA4]'/>
+//                             <p>{index.review_title}</p>
+//                             <p>{index.review_body}</p>
+//                             <p>{index.review_name}</p>
+//                             <p>{index.review_date}</p>
+//                         </div>
+//                     </div>
+//                 ))}
