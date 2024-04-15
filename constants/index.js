@@ -596,17 +596,10 @@ export const BISTRO_GALLERY = [
 //REVIEWS CONTENT
 export const REVIEW_CONTENT = [
     {
-        review_title: "Great quick stay!",
-        review_body: "We stayed for less than 1 day, because of our trip itinerary,and within that stay, we really enjoyed the place! Love how quick the check in was, the staff were all friendly, and the place was clean and smells good. They missed out some tissue and slippers in our room, but they quickly gave it to us. Their buffet should also improve as there's no options for vegan / vegetables, and there's no cereals for kids. But overall, it was a great stay!",
-        review_name: "CELINE",
-        review_date: "Reviewed January 17, 2024"
-    },
-
-    {
-        review_title: "Unexpected, highly recommended",
-        review_body: "I was completely surprised when I've known that there was a hotel inside this sports center. The lobby was decorated beautifully and the staffs were approachable. Only thing that irked me was the Netflix fee (50php only) but ! I got to share it with other people staying in the hotel. There was a notification that this x amount of people is using the Netflix account and I cannot use it right now.",
-        review_name: "JANELLE",
-        review_date: "Reviewed March 14, 2024"
+        review_title: "Nice for a pretty new Hotel",
+        review_body: "The room was good. We enjoyed the space. Location is also great as you’re near mrt if you want to go to SM north and neat Tomas Morato. Everything seems new. Wifi is disconnecting at times but it’s fine.",
+        review_name: "THRECIA",
+        review_date: "Reviewed February 29, 2024"
     },
 
     {
@@ -617,10 +610,24 @@ export const REVIEW_CONTENT = [
     },
 
     {
-        review_title: "Nice for a pretty new Hotel",
-        review_body: "The room was good. We enjoyed the space. Location is also great as you’re near mrt if you want to go to SM north and neat Tomas Morato. Everything seems new. Wifi is disconnecting at times but it’s fine.",
-        review_name: "THRECIA",
-        review_date: "Reviewed February 29, 2024"
+        review_title: "Sulit for its price",
+        review_body: "Supposedly a plated breakfast but turned into buffet. We enjoyed our stay. Definitely would go back. Need some enhancement with soundproofing siguro since we can hear other guests and the construction.",
+        review_name: "VANESSA",
+        review_date: "Reviewed January 31, 2024"
+    },
+
+    {
+        review_title: "Exceptional",
+        review_body: "Place and service was great! Even the staffs were very accomodating and helpful. My hubby and I stayed here for overnight and it was very relaxing!! Thank you VS Hotel!",
+        review_name: "LORRAINE",
+        review_date: "Reviewed March 02, 2024"
+    },
+
+    {
+        review_title: "Unexpected, highly recommended",
+        review_body: "I was completely surprised when I've known that there was a hotel inside this sports center. The lobby was decorated beautifully and the staffs were approachable. Only thing that irked me was the Netflix fee (50php only) but ! I got to share it with other people staying in the hotel. There was a notification that this x amount of people is using the Netflix account and I cannot use it right now.",
+        review_name: "JANELLE",
+        review_date: "Reviewed March 14, 2024"
     },
 
     {
@@ -628,15 +635,7 @@ export const REVIEW_CONTENT = [
         review_body: "We had a very pleasant and restful stay here. The staff are super friendly and the amenities is superb! We will definitely stay here again.",
         review_name: "HELENE",
         review_date: "Reviewed February 11, 2024"
-    },
-
-    {
-        review_title: "Sulit for its price",
-        review_body: "Supposedly a plated breakfast but turned into buffet. We enjoyed our stay. Definitely would go back. Need some enhancement with soundproofing siguro since we can hear other guests and the construction.",
-        review_name: "VANESSA",
-        review_date: "Reviewed January 31, 2024"
-    },
-
+    }
 
 ]
 
