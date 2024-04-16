@@ -34,7 +34,7 @@ function SpecialOffers() {
                                     </p>
 
                                     <div className='text-dark text-sm mt-5'>
-                                        <p>Rate starts at <b>{index.rate}</b> for two (2) persons</p>
+                                        {/**<p>Rate starts at <b>{index.rate}</b> for two (2) persons</p> */}
                                         <p className='my-2'>Booking Period: {index.booking}</p>
                                         <p>Stay Period: {index.stay}</p>
                                     </div>
