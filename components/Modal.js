@@ -25,16 +25,15 @@ function AdsModal() {
 
   return (
     <>
-    {/** 
      {showModal && (
         <>
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-blur-sm"
           >
             <div className="relative w-auto mx-auto xl:max-w-xl max-w-lg">
-          
+
               <div className="border-0 rounded-lg relative flex flex-col w-full my-10 outline-none focus:outline-none px-2 sm:px-0">
-              
+
                 <div className="relative top-10 z-50 px-2 text-right ">
                     <button
                       className="text-white"
@@ -45,14 +44,12 @@ function AdsModal() {
                     </button>
                 </div>
 
-                  <div>
-                    <img src="/ads/Urban Summer Escape Ad.jpeg" alt="" />
-                  </div>
+                <div>
+                  <img src="/ads/VS-MothersDay.png" alt="ads" />
+                </div>
 
-                  */}
 
-              {/**
-               <div className="relative flex-auto">
+               {/* <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -75,16 +72,15 @@ function AdsModal() {
                     </div>
                   </Carousel>
 
-                </div>
-               */}
-               {/**
+                </div> */}
+
               </div>
             </div>
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       )}
-      */}
+  
     </>
   );
 };

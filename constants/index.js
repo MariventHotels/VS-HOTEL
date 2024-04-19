@@ -379,7 +379,7 @@ export const HTL_OFFERS = [
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
                 // rateA: 'PHP 8,000',
-                offerimg: '/offers/april4_offer.mp4',
+                offerVid: '/offers/april4_offer.mp4',
                 // rate: 'PHP 3,940',
                 // booking: 'April 1 to 8, 2024',
                 stay: 'All Mondays - Thursdays of April except Weekends',
@@ -399,6 +399,54 @@ export const HTL_OFFERS = [
                     },
                     {
                         inc_name: "Fitness Gym"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+//HOTEL OFFERS V2
+export const HTL_OFFERS_V2 = [
+    {
+        Offers: [
+            {
+                label: "SPECIAL MOTHER'S DAY OFFER!",
+                title: "MOM'S DAY OUT",
+                desc: "Celebrate the love of a mother beyond just one day!Join us for a week-long tribute at the VS Hotel, and make every moment dedicated to honoring her. Book her escape now! ⁣⁣⁣",
+                // packageB: 'APHRODITE',
+                // packageA: 'VENUS',
+                rateA: 'PHP 2,349',
+                rateB: 'PHP 2,999',
+                offerimg: '/offers/vs hotel mothers day-sp.jpg',
+                // rate: 'PHP 3,940',
+                booking: 'April 17 to May 11, 2024',
+                stay: 'May 6 to 12, 2024',
+
+                inclusionsA: [
+                    {
+                        inc_name: 'Overnight stay with breakfast for (2) two'
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports' gym and pool facilities"
+                    },
+                    {
+                        inc_name: "Slice of Cake"
+                    }
+                ],
+
+                inclusionsB: [
+                    {
+                        inc_name: 'Overnight stay with breakfast for (2) two'
+                    },
+                    {
+                        inc_name: "Access to Victoria Sports' gym and pool facilities"
+                    },
+                    {
+                        inc_name: "Slice of Cake"
+                    },
+                    {
+                        inc_name: "Massage for (1) one person"
                     }
                 ]
             }
