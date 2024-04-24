@@ -3,7 +3,7 @@ import React from 'react'
 const hdn = () => {
   return (
     <>
-        <img src="/offers/vsh-mothersday.jpg" alt="" />
+        <img src="/offers/mday-v2.jpg" alt="" />
     </>
   )
 }
