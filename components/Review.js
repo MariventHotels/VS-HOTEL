@@ -13,13 +13,15 @@ function Review() {
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
                 <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>
-                    Immerse yourself in a world of travel tales, where each review paints a vivid
-                    picture of the hotel's ambiance, service, amenities, and everything in between.
-                    Explore firsthand hotel experiences from cozy
-                    beds to top-notch service, our community shares honest insights to guide
-                    your next stay. Join us and find your perfect hotel match today!
+                    Explore firsthand hotel experiences from cozy beds to top-notch  service, our community
+                    shares honest insights to guide your next stay. Had a great stay? Leave us a glowing 5-star
+                    review on TripAdvisor! Have suggestions for improvement? We're all ears! Help us enhance
+                    your next visit by sharing your feedback.
                 </p>
-               {/**<a href="https://victoriasportsclub.com/"><button className='bg-white pl-5 pr-5 pt-2 pb-2 text-green font-semibold mt-2 font-opensans text-[0.7rem] sm:text-xs rounded-sm custom-btn'>LEAVE YOUR FEEDBACK HERE</button></a> */}
+
+               <a href="https://www.tripadvisor.com/UserReviewEdit-g298574-d23833786-VS_Hotel-Quezon_City_Metro_Manila_Luzon.html" target='_blank'><button className='bg-white pl-5 pr-5 pt-2 pb-2 mx-2 text-green font-semibold mt-2 font-opensans text-[0.7rem] sm:text-xs rounded-sm custom-btn'>HOW DID YOU ENJOY YOUR STAY?</button></a>
+               <a href="https://us1.list-manage.com/survey?u=2dc85a100274ce1d29cb7076c&id=8f0146ae40&attribution=false" target='_blank'><button className='bg-green pl-5 pr-5 pt-2 pb-2 mx-2 text-white border border-solid border-white font-semibold mt-2 font-opensans text-[0.7rem] sm:text-xs rounded-sm custom-btn'>HOW SHOULD WE IMPROVE?</button></a>
+
             </div>
 
             <div class="container-fluid sm:container mt-5 mx-auto flex flex-wrap flex-row">

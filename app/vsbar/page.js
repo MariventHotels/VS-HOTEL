@@ -41,6 +41,9 @@ function Bar() {
 
                         <h1 className='2xl:text-7xl text-xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
                         <p className='text-xs sm:text-base lg:text-lg mx-1'>Every Friday and Saturday | 6:00PM Onwards</p>
+                        <a href="https://drive.google.com/file/d/1FODlJAHcBreYvxVb4vrw4XVu5DMTuKEq/view?usp=sharing" className=''>
+                            <button className='bg-white py-2 px-10 mt-4 rounded-sm text-green font-medium hover:bg-green hover:text-white hover:ease-in-out duration-300'>VIEW MENU</button>
+                        </a>
                     </div>
                 </div>
            </div>
@@ -93,7 +96,7 @@ function Bar() {
 
             {/**OFFERS*/}
             {/**
-                           <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
+            <div className="lg:mx-[120px] mx-2 sm:ml-5 sm:mx-auto my-10">
                 <div className="grid grid-cols-3">
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                     <h1 className='sm:text-3xl text-xl font-playfair text-center text-green'>OFFERS</h1>
