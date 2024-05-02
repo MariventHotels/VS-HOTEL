@@ -15,7 +15,7 @@ function SpecialOffers() {
                 <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Standing at the heart of the Quezon City, VS Hotel is the supreme destination for all kinds of events. The hotel boasts one ballroom with a perfect view of Philippines’ longest mountain range- Sierra Madre and eleven function rooms to meet your every demand and expectation. Our hotel offers alternative to traditional meeting venues. Whether intimate or big events, any meeting is elevated from standard to sensational when held at VS Hotel.</p>
             </div>
 
-            {/* ONE OFFER */}
+            {/* ONE OFFER 
             {HTL_OFFERS.map((index) => (
                 <div>{index.Offers.map((index) => (
                     <>
@@ -33,10 +33,10 @@ function SpecialOffers() {
                                         {index.desc}
                                     </p>
 
-                                    <div className='text-dark text-sm mt-5'>
+                                    <div className='text-dark text-sm mt-5'>*/}
                                         {/**<p>Rate starts at <b>{index.rate}</b> for two (2) persons</p> */}
                                         {/** <p className='my-2'>Booking Period: {index.booking}</p> */}
-                                        <p>Stay Period: {index.stay}</p>
+                                        {/* <p>Stay Period: {index.stay}</p>
                                     </div>
 
                                     <p className='text-dark text-sm my-3 font-bold'>Inclusions:</p>
@@ -59,7 +59,7 @@ function SpecialOffers() {
                     </>
                 ))}</div>
 
-            ))}
+            ))} */}
 
             {HTL_OFFERS_V2.map((index) => (
                 <div>{index.Offers.map((index) => (
