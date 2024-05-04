@@ -43,7 +43,7 @@ function AdsModal() {
                       <IoCloseSharp className='text-3xl' />
                     </button>
                 </div>
-
+                
                 <div>
                   <img src="/ads/VS-MothersDay.png" alt="ads" />
                 </div>
@@ -64,7 +64,7 @@ function AdsModal() {
                     showIndicators={false}
                   >
                     <div>
-                      <img src="/ads/LaborDay.jpeg" alt="" />
+                      <img src="/ads/5.5.png" alt="" />
                     </div>
                     
                     <div>

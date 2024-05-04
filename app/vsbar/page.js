@@ -69,19 +69,25 @@ function Bar() {
                 </div>
                 <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.</p>
 
-                {/**
-                       <div className='grid sm:grid-cols-1 grid-cols-1 gap-4 mt-5 mx-auto'>
+                <div className='grid sm:grid-cols-4 grid-cols-1 gap-4 mt-5 mx-auto'>
                     <div className='prf'>
-                        <img src="/bistro/performers/p-2.jpg" alt="performers" />
+                        <img src="/bistro/performers/pf-1.jpg" alt="performers" />
                     </div>
 
                     <div className='prf'>
-                        <img src="/bistro/performers/p-3.jpg" alt="performers" />
+                        <img src="/bistro/performers/pf-2.jpg" alt="performers" />
+                    </div>
+
+                    <div className='prf'>
+                        <img src="/bistro/performers/pf-3.jpg" alt="performers" />
+                    </div>
+
+                    <div className='prf'>
+                        <img src="/bistro/performers/pf-4.jpg" alt="performers" />
                     </div>
                 </div>
-            */}
 
-                <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5 mx-auto'>
+                {/* <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5 mx-auto'>
                     <div className='prf'>
                     </div>
                     <div className='prf'>
@@ -89,7 +95,7 @@ function Bar() {
                     </div>
                     <div className='prf'>
                     </div>
-                </div>
+                </div> */}
 
 
                 </div>
