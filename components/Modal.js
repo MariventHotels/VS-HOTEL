@@ -43,13 +43,13 @@ function AdsModal() {
                       <IoCloseSharp className='text-3xl' />
                     </button>
                 </div>
-              {/* 
+
                 <div>
                   <img src="/ads/VS-MothersDay.png" alt="ads" />
-                </div> */}
+                </div>
 
 
-               <div className="relative flex-auto">
+               {/* <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -64,15 +64,15 @@ function AdsModal() {
                     showIndicators={false}
                   >
                     <div>
-                      <img src="/ads/5.5.png" alt="" />
+                      <img src="/ads/LaborDay.jpeg" alt="" />
                     </div>
-
+                    
                     <div>
                       <img src="/ads/VS-MothersDay.png" alt="ads" />
                     </div>
 
                   </Carousel>
-                </div>
+                </div> */}
 
               </div>
             </div>
