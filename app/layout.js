@@ -42,10 +42,10 @@ export default function RootLayout({ children }) {
       <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
       <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 
-      {/* <meta property="og:title" content="Mother's Day Offer" />
+      <meta property="og:title" content="Mother's Day Offer" />
       <meta property="og:description" content="Celebrate the love of a mother beyond just one day!Join us for a week-long tribute at the VS Hotel, and make every moment dedicated to honoring her. Book her escape now! ⁣⁣⁣" />
       <meta property="og:image" content="https://www.vshotel.com.ph/offers/mday-v3.jpg" />
-      <meta property="og:url" content='https://www.vshotel.com.ph/specialoffers/' /> */}
+      <meta property="og:url" content='https://www.vshotel.com.ph/specialoffers/' />
 
     </head>
       <body className='bg-gray'>
