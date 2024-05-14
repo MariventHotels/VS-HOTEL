@@ -43,7 +43,7 @@ function Navbar() {
                 <li className="mb-2 py-4"><a href="/conventioncenter">Convention Center</a></li>
                 <li className="mb-2 py-4"><a href="/vsbar">VS Bar</a></li>
                 <li className="mb-2 py-4"><a href="https://victoriasportsclub.com/">VS Club</a></li>
-                <li className="mb-2 py-4"><a href="/specialoffers">Special Offers</a></li>
+                {/* <li className="mb-2 py-4"><a href="/specialoffers">Special Offers</a></li> */}
             </ul>
         </animated.aside>
 
