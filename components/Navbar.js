@@ -59,7 +59,6 @@ function Navbar() {
         </div>
 
         <nav className='bg-white'>
-
             {/* MENU ICON */}
             <button className='text-green sm:hidden block' onClick={toggleSidebar} ><HiMenuAlt2 className='text-3xl absolute top-9 left-2' /></button>
 

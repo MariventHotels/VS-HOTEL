@@ -16,7 +16,7 @@ function igWidget() {
         <div
             className='mb-14 mt-0 pt-0'
             loading="lazy"
-            data-mc-src="39c088c1-95b6-4ceb-a9b9-eaa805e0a1b9#instagram">
+            data-mc-src="c5258657-a54c-4b1e-a7ce-6f4ab247b356#instagram">
         </div>
       </div>
     </>

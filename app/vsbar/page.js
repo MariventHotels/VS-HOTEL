@@ -55,8 +55,10 @@ function Bar() {
                     <h1 className='sm:text-3xl text-xl font-playfair text-green'>SNEAK PEEK</h1>
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
-                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Last weekend at the Victoria Sports Bar, guests had a fantastic weekend full of fun, excitement, and entertainment that they will never forget. They enjoyed some lively music and DJ sets while relishing a delicious menu and cocktails and danced the night away with endless energy and enthusiasm. It was an absolute blast for everyone who came, and we're glad to have been a part of it!</p>
-
+                <p className='pt-3 pb-3 text-dark font-opensans lg:w-3/4 mx-auto text-sm '>Last weekend at the Victoria Sports Bar, guests had a fantastic weekend full of fun, excitement,
+                    and entertainment that they will never forget. They enjoyed some lively music and DJ sets while relishing a delicious menu and cocktails and danced the night away with
+                    endless energy and enthusiasm. It was an absolute blast for everyone who came, and we're glad to have been a part of it!
+                </p>
                 <BistroCarousel />
             </div>
 
@@ -68,11 +70,10 @@ function Bar() {
                     <hr className='text-lightdark sm:mt-5 mt-4' />
                 </div>
                 <p className='pt-3 pb-3 text-white font-opensans lg:w-3/4 mx-auto text-sm '>Enjoy live music, delicious food, and refreshing drinks at Victoria Sports Bar this weekend. Our talented performers will keep you entertained with a mix of soulful ballads and upbeat rock and roll hits.</p>
-
-                <div className='grid sm:grid-cols-4 grid-cols-1 gap-4 mt-5 mx-auto'>
-                    <div className='prf'>
+                <div className='grid sm:grid-cols-3 grid-cols-1 gap-4 mt-5 mx-auto'>
+                    {/* <div className='prf'>
                         <img src="/bistro/performers/pf-1.jpg" alt="performers" />
-                    </div>
+                    </div> */}
 
                     <div className='prf'>
                         <img src="/bistro/performers/pf-2.jpg" alt="performers" />

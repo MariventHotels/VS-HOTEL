@@ -49,6 +49,7 @@ function Footer() {
                 <p className='text-sm text-dark py-1'><a href="/stay">Stay</a></p>
                 <p className='text-sm text-dark py-1'><a href="/dining">Dining</a></p>
                 <p className='text-sm text-dark py-1'><a href="/conventioncenter">Convention Center</a></p>
+                <p className='text-sm text-dark py-1'><a href="https://www.vshotel.com.ph/vsbar">VS Bar</a></p>
                 <p className='text-sm text-dark'><a href="https://victoriasportsclub.com/">VS Club</a></p>
             </div>
 
