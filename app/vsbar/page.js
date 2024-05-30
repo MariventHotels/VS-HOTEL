@@ -35,11 +35,11 @@ function Bar() {
                     </div>
                     {/**TAGLINE */}
                     <div className="container-fluid w-full mx-auto absolute sm:px-1 sm:bottom-[350px] bottom-10 text-center text-white">
-                        <div className='mb-1 sm:mb-5 mt-10'>
+                        <div className='sm:mb-5 mt-10'>
                             <img src="/bistro/VICTORIA SPORTS Bar-02.png" className='w-2/5 sm:w-5/6 md:w-1/6  mx-auto' alt="bistro logo" />
                         </div>
 
-                        <h1 className='2xl:text-7xl text-xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
+                        <h1 className='2xl:text-7xl text-2xl sm:text-6xl mb-1 lg:mb-4 font-playfair'>A Nightlife of Live Music, and Fun</h1>
                         <p className='text-xs sm:text-base lg:text-lg mx-1'>Every Friday and Saturday | 6:00PM Onwards</p>
                         <a href="https://drive.google.com/file/d/17hDvND-rhM51XyYN2-fJgCZj1reQUv5d/view?usp=sharing" className=''>
                             <button className='bg-white py-2 px-5 sm:px-10 mt-4 rounded-sm text-green font-bold hover:bg-green hover:text-white hover:ease-in-out duration-300 sm:text-sm text-xs'>VIEW MENU</button>
