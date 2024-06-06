@@ -64,52 +64,42 @@ function SpecialOffers() {
             {HTL_OFFERS_V2.map((index) => (
                 <div>{index.Offers.map((index) => (
                     <>
-                        <div className="container-fluid sm:container mt-10 mx-auto h-auto bg-white sm:rounded-r-sm rounded-b-sm">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-   
-                                <img src={index.offerimg} alt="" className='h-auto relative w-full sm:rounded-l-sm rounded-t-sm' />
-            
-                                <div className="px-2 sm:mr-10 sm:px-0 rounded-r-sm sm:ml-5 lg:ml-0">
-                                    <p className='font-opensans text-sm text-dark lg:mt-6'>{index.label}</p>
-                                    <h1 className='font-playfair text-green sm:text-4xl text-3xl pb-3'>{index.title}</h1>
-                                    <p className='font-opensans text-sm text-dark text-justify'>
-                                        {index.desc}
-                                    </p>
+                        <div className="container-fluid sm:container mt-10 mx-auto h-auto sm:rounded-r-sm rounded-b-sm">
+                            <div className="grid sm:grid-cols-3">
+                                <div className=""></div>
 
-                                    <div className='text-dark text-sm mt-5'>
-                                        {/**<p>Rate starts at <b>{index.rate}</b> for two (2) persons</p> */}
-                                        <p className='my-2'>Booking Period: {index.booking}</p>
-                                        <p>Stay Period: {index.stay}</p>
+                                <div className="text-center">
+                                    <div className="mx-auto">
+                                        <img src={index.offerimg} alt="" className='h-auto mx-auto sm:rounded-l-sm rounded-t-sm' />
                                     </div>
-
-                                    <div className='mt-5'>
-                                        <h2 className='font-bold text-lg text-green'>PACKAGE A</h2>
-                                        <p className='py-1 text-normal'>Rate starts at <b className='text-dark'>{index.rateA}</b></p>
-                                        <p className='text-dark text-sm my-1 font-bold'>Inclusions:</p>
-                                        {index.inclusionsA.map((index) => (
-                                            <>
-                                                <ul className='text-dark'>
-                                                        <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
-                                                </ul>
-                                            </>
-                                        ))}
+                                    <div className="">
+                                        <p className='font-opensans text-sm text-dark lg:mt-6'>{index.label}</p>
+                                        <h1 className='font-playfair text-green sm:text-4xl text-3xl pb-3'>{index.title}</h1>
+                                        <p className='font-opensans text-sm text-dark text-center'>
+                                            {index.desc}
+                                        </p>
+                                        <div className='text-dark text-sm mt-5'>
+                                            <p>Rate starts at <b>{index.rate}</b></p>
+                                            <p className='my-2'>Booking Period: {index.booking}</p>
+                                            <p>Stay Period: {index.stay}</p>
+                                        </div>
+                                        <p className='italic text-dark text-sm pt-5 mb-8'>Terms and conditions apply | Reservations should be made prior to the intended stay.</p>
                                     </div>
+                                </div>
 
-                                    <div className='mt-5'>
-                                        <h2 className='font-bold text-lg text-green'>PACKAGE B</h2>
-                                        <p className='py-1 text-normal'>Rate starts at <b className='text-dark'>{index.rateB}</b></p>
-                                        <p className='text-dark text-sm my-1 font-bold'>Inclusions:</p>
-                                        {index.inclusionsB.map((index) => (
-                                            <>
-                                                <ul className='text-dark'>
-                                                    <li className='text-sm my-1 flex'><IoMdCheckmark className='text-sm text-green mt-1 mr-2' />{index.inc_name}</li>
-                                                </ul>
-                                            </>
-                                        ))}
-                                    </div>
+                                <div className=""></div>
+                            </div>
 
-                                    <p className='italic text-dark text-sm pt-5 mb-8'>Terms and conditions apply | Reservations should be made prior to the intended stay.</p>
-
+                            {/* PACKAGES */}
+                            <div className="grid sm:grid-cols-3 gap-4">
+                                <div className="">
+                                    <img src="/offers/setA.jpg" alt="" />
+                                </div>
+                                <div className="">
+                                    <img src="/offers/setB.jpg" alt="" />
+                                </div>
+                                <div className="">
+                                    <img src="/offers/setC.jpg" alt="" />
                                 </div>
                             </div>
                         </div>

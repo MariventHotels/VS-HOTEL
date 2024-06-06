@@ -5,7 +5,7 @@ export const NAV_LINKS = [
     { href: '/conventioncenter', key: 'conventioncenter', label: 'CONVENTION CENTER' },
     { href: '/vsbar', key: 'vsbar', label: 'VS BAR' },
     { href: 'https://victoriasportsclub.com/', key: 'vsclub', label: 'VS CLUB' },
-    // { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
+    { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
 ]
 
 export const MENU_OPT = [
@@ -411,44 +411,44 @@ export const HTL_OFFERS_V2 = [
     {
         Offers: [
             {
-                label: "SPECIAL MOTHER'S DAY OFFER!",
-                title: "MOM'S DAY OUT",
-                desc: "Celebrate the love of a mother beyond just one day!Join us for a week-long tribute at the VS Hotel, and make every moment dedicated to honoring her. Book her escape now! ⁣⁣⁣",
+                label: "FATHER'S DAY OFFER!",
+                title: "DAD'S DAY DELIGHT",
+                desc: "Indulge in a delicious Father's Day menu delivered to your room for a delightful dining experience.⁣",
                 // packageB: 'APHRODITE',
                 // packageA: 'VENUS',
-                rateA: 'PHP 2,349',
-                rateB: 'PHP 2,999',
-                offerimg: '/offers/vs hotel mothers day-sp.jpg',
-                // rate: 'PHP 3,940',
-                booking: 'April 17 to May 11, 2024',
-                stay: 'May 6 to 12, 2024',
+                // rateA: 'PHP 2,800',
+                // rateB: 'PHP 2,999',
+                offerimg: '/offers/Fday.jpg',
+                rate: 'PHP 2,800',
+                booking: 'June 4 to 14, 2024',
+                stay: 'June 14 to 16, 2024',
 
-                inclusionsA: [
-                    {
-                        inc_name: 'Overnight stay with breakfast for (2) two'
-                    },
-                    {
-                        inc_name: "Access to Victoria Sports' gym and pool facilities"
-                    },
-                    {
-                        inc_name: "Slice of Cake"
-                    }
-                ],
+                // inclusionsA: [
+                //     {
+                //         inc_name: 'Overnight stay with breakfast for (2) two'
+                //     },
+                //     {
+                //         inc_name: "Access to Victoria Sports' gym and pool facilities"
+                //     },
+                //     {
+                //         inc_name: "Slice of Cake"
+                //     }
+                // ],
 
-                inclusionsB: [
-                    {
-                        inc_name: 'Overnight stay with breakfast for (2) two'
-                    },
-                    {
-                        inc_name: "Access to Victoria Sports' gym and pool facilities"
-                    },
-                    {
-                        inc_name: "Slice of Cake"
-                    },
-                    {
-                        inc_name: "Massage for (1) one person"
-                    }
-                ]
+                // inclusionsB: [
+                //     {
+                //         inc_name: 'Overnight stay with breakfast for (2) two'
+                //     },
+                //     {
+                //         inc_name: "Access to Victoria Sports' gym and pool facilities"
+                //     },
+                //     {
+                //         inc_name: "Slice of Cake"
+                //     },
+                //     {
+                //         inc_name: "Massage for (1) one person"
+                //     }
+                // ]
             }
         ]
     }
