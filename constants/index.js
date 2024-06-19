@@ -5,7 +5,7 @@ export const NAV_LINKS = [
     { href: '/conventioncenter', key: 'conventioncenter', label: 'CONVENTION CENTER' },
     { href: '/vsbar', key: 'vsbar', label: 'VS BAR' },
     { href: 'https://victoriasportsclub.com/', key: 'vsclub', label: 'VS CLUB' },
-    { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
+    // { href: '/specialoffers', key: 'specialoffers', label: 'SPECIAL OFFERS' }
 ]
 
 export const MENU_OPT = [
