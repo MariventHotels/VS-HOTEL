@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata = {
-  title: 'VS Hotel',
+  title: 'VS Hotel Convention Center | Quezon City',
   description: 'Redefining travel by providing you with unlimited access to fitness classes, gym facilities, and sports facilities.',
 }
 

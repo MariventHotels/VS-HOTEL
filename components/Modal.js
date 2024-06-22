@@ -44,12 +44,12 @@ function AdsModal() {
                     </button>
                 </div>
 
-                {/* <div>
-                  <img src="/ads/VS-MothersDay.png" alt="ads" />
-                </div> */}
+                <div>
+                  <img src="/ads/DRIP, DROP & SAVE2.jpg" alt="ads" />
+                </div>
 
 
-               <div className="relative flex-auto">
+               {/* <div className="relative flex-auto">
                   <Carousel
                     autoPlay={true}
                     showStatus={false}
@@ -72,7 +72,7 @@ function AdsModal() {
                     </div>
 
                   </Carousel>
-                </div>
+                </div> */}
 
               </div>
             </div>
