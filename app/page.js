@@ -7,12 +7,14 @@ import AdsModal from '@/components/Modal';
 import IgWidget from '@/components/Widget';
 import Location from '@/components/Location';
 import Reviews from '@/components/Review';
+import Staah from '@/components/Staah';
 
 export default function Home() {
   return (
       <>
         <AdsModal />
         <Coverpage />
+        <Staah />
         <Rooms />
         <Sports />
         <Experience />

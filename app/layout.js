@@ -73,8 +73,10 @@ export default function RootLayout({ children }) {
         `}
       </Script> */}
 
+        {/* End Meta Pixel Code  */}
+
       {/* <!-- Meta Pixel Code --> */}
-      <script>
+      {/* <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -90,12 +92,8 @@ export default function RootLayout({ children }) {
       <img height="1" width="1"
       src="https://www.facebook.com/tr?id=3848238502129799&ev=PageView
       &noscript=1"/>
-      </noscript>
-      {/* <!-- End Meta Pixel Code --> */}
-
-        {/* End Meta Pixel Code  */}
-
-
+      </noscript> */}
+      {/* <!-- End Meta Pixel Code --> */}
 
     </head>
       <body className='bg-gray'>
@@ -143,6 +141,17 @@ export default function RootLayout({ children }) {
 
           </Script>
 
+        {/* STAAH */}
+       <Script
+          src="https://www.swiftbook.io/plugin/js/booking-service.min.js"
+          id="propInfo"
+          propertyid="981McUiXi5Cecd5zhxiE3fR8uSGiZzkHhOSjrvz35ua3ek1SID2rCjI0MzQ="
+          cal-rendererId="quickbook-widget"
+          JDRN="Y"
+          redirect="off"
+          >
+        </Script>
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <script>
@@ -162,8 +171,6 @@ export default function RootLayout({ children }) {
           src="https://cdn2.woxo.tech/a.js#6598af4e435a9a2183f6eb2c"
           async data-usrc>
         </script>
-
-
 
         <Analytics />
         <SpeedInsights />
