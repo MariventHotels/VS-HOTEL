@@ -76,7 +76,29 @@ function Navbar() {
                     ))}
                 </ul>
                 <div className="lg:flexCenter">
-                    <button className='sm:block hidden bg-yellow py-2 px-5 text-white text-sm rounded-sm'><a href="https://staahmax.staah.net/be/indexpackdetail?propertyId=MzgzMA==&individual=true">BOOK NOW</a></button>
+                    <button
+                        className="cursor-pointer
+                                   bg-yellow
+                                   px-3 py-2
+                                   rounded-md
+                                   text-white
+                                   tracking-wider
+                                   shadow-xl
+                                   animate-bounce
+                                   hover:animate-none
+                                   sm:block
+                                   hidden"
+                        >
+                            <p className='text-sm'>BOOK NOW</p>
+                            <path
+                            d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            ></path>
+                    </button>
+                    {/* <button className='sm:block hidden bg-yellow py-2 px-5 text-white
+                    text-sm rounded-sm'><a href="https://staahmax.staah.net/be/indexpackde
+                    tail?propertyId=MzgzMA==&individual=true">BOOK NOW</a></button> */}
                 </div>
 
                 {/* <div className='md:block sm:block hidden'>
