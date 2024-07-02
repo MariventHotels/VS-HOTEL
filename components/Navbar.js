@@ -89,7 +89,8 @@ function Navbar() {
                                    sm:block
                                    hidden"
                         >
-                            <p className='text-sm'>BOOK NOW</p>
+                            <p className='text-sm'><a href="https://www.swiftbook.io/inst/#home?propertyId=363MjIpd9DKOxXNT5Koe1JFI0MzQ=&JDRN=Y">BOOK NOW</a></p>
+                            
                             <path
                             d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
                             stroke-linejoin="round"
